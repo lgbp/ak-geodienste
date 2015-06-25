@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 25.06.2015 http://www.geoportal.rlp.de/mapbender/php/wms.php?layer_id=30825&PHPSESSID=dafb69bbdae20baafc91be2e7f4727a0&INSPIRE=1&REQUEST=GetCapabilities&VERSION=1.1.1&SERVICE=WMS -->
+<WMT_MS_Capabilities updateSequence="1392047210" xmlns:inspire_common="http://inspire.ec.europa.eu/schemas/common/1.0" xmlns:inspire_vs="http://inspire.ec.europa.eu/schemas/inspire_vs/1.0" version="1.1.1">
+    <Service>
+        <Name>OGC:WMS</Name>
+        <Title>Naturschutzgebiet</Title>
+        <Abstract>Naturschutzgebiete - Informationen der Naturschutzverwaltung Rheinland-Pfalz</Abstract>
+        <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://www.geoportal.rlp.de/mapbender/php/wms.php?layer_id=30825&amp;PHPSESSID=dafb69bbdae20baafc91be2e7f4727a0&amp;INSPIRE=1&amp;REQUEST=GetCapabilities&amp;VERSION=1.1.1&amp;SERVICE=WMS&amp;INSPIRE=1" xlink:type="simple"/>
+        <ContactInformation>
+            <ContactPersonPrimary>
+                <ContactPerson>Frank Lemke</ContactPerson>
+                <ContactOrganization>Struktur- und Genehmigungsdirektion Nord - AG GIS</ContactOrganization>
+            </ContactPersonPrimary>
+            <ContactPosition>Leiter Arbeitsgemeinschaft geographische Informationssysteme -  AG GIS</ContactPosition>
+            <ContactAddress>
+                <AddressType>postal</AddressType>
+                <Address>Stresemannstrasse 3-5</Address>
+                <City>Koblenz</City>
+                <StateOrProvince>DE-RP</StateOrProvince>
+                <PostCode>56068</PostCode>
+                <Country>DE</Country>
+            </ContactAddress>
+            <ContactVoiceTelephone>+49(0)261-1202114</ContactVoiceTelephone>
+            <ContactFacsimileTelephone>+49(0)261-120882114</ContactFacsimileTelephone>
+            <ContactElectronicMailAddress>frank.lemke@sgdnord.rlp.de</ContactElectronicMailAddress>
+        </ContactInformation>
+        <Fees>none</Fees>
+        <AccessConstraints>none</AccessConstraints>
+    </Service>
+    <Capability>
+        <Request>
+            <GetCapabilities>
+                <Format>application/vnd.ogc.wms_xml</Format>
+                <DCPType>
+                    <HTTP>
+                        <Get>
+                            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://www.geoportal.rlp.de/mapbender/php/wms.php?layer_id=30825&amp;PHPSESSID=dafb69bbdae20baafc91be2e7f4727a0&amp;INSPIRE=1&amp;REQUEST=GetCapabilities&amp;VERSION=1.1.1&amp;SERVICE=WMS&amp;INSPIRE=1" xlink:type="simple"/>
+                        </Get>
+                        <Post>
+                            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="" xlink:type="simple"/>
+                        </Post>
+                    </HTTP>
+                </DCPType>
+            </GetCapabilities>
+            <GetMap>
+                <Format>image/png</Format>
+                <Format>image/gif</Format>
+                <Format>image/jpeg</Format>
+                <Format>image/png; mode=24bit</Format>
+                <Format>image/vnd.wap.wbmp</Format>
+                <Format>image/tiff</Format>
+                <Format>image/svg+xml</Format>
+                <DCPType>
+                    <HTTP>
+                        <Get>
+                            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://map1.naturschutz.rlp.de/service_lanis/mod_wms/wms_getmap.php?mapfile=naturschutzgebiet&amp;" xlink:type="simple"/>
+                        </Get>
+                        <Post>
+                            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://map1.naturschutz.rlp.de/service_lanis/mod_wms/wms_getmap.php?mapfile=naturschutzgebiet&amp;" xlink:type="simple"/>
+                        </Post>
+                    </HTTP>
+                </DCPType>
+            </GetMap>
+            <GetFeatureInfo>
+                <Format>text/plain</Format>
+                <Format>text/html</Format>
+                <Format>application/vnd.ogc.gml</Format>
+                <Format>text/xml</Format>
+                <DCPType>
+                    <HTTP>
+                        <Get>
+                            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://map1.naturschutz.rlp.de/service_lanis/mod_wms/wms_getmap.php?mapfile=naturschutzgebiet&amp;" xlink:type="simple"/>
+                        </Get>
+                        <Post>
+                            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://map1.naturschutz.rlp.de/service_lanis/mod_wms/wms_getmap.php?mapfile=naturschutzgebiet&amp;" xlink:type="simple"/>
+                        </Post>
+                    </HTTP>
+                </DCPType>
+            </GetFeatureInfo>
+        </Request>
+        <Exception>
+            <Format>application/vnd.ogc.se_xml</Format>
+            <Format>application/vnd.ogc.se_inimage</Format>
+            <Format>application/vnd.ogc.se_blank</Format>
+        </Exception>
+        <VendorSpecificCapabilities>
+            <inspire_vs:ExtendedCapabilities xmlns:inspire_vs="http://inspire.ec.europa.eu/schemas/inspire_vs/1.0">
+                <inspire_common:MetadataUrl xmlns:inspire_common="http://inspire.ec.europa.eu/schemas/common/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="inspire_common:resourceLocatorType">
+                    <inspire_common:URL xmlns:inspire_common="http://inspire.ec.europa.eu/schemas/common/1.0">http://www.geoportal.rlp.de/mapbender/php/mod_layerISOMetadata.php?SERVICE=WMS&amp;outputFormat=iso19139&amp;Id=30825</inspire_common:URL>
+                    <inspire_common:MediaType xmlns:inspire_common="http://inspire.ec.europa.eu/schemas/common/1.0">application/vnd.iso.19139+xml</inspire_common:MediaType>
+                </inspire_common:MetadataUrl>
+                <inspire_common:SupportedLanguages>
+                    <inspire_common:DefaultLanguage>
+                        <inspire_common:Language>ger</inspire_common:Language>
+                    </inspire_common:DefaultLanguage>
+                    <inspire_common:SupportedLanguage>
+                        <inspire_common:Language>ger</inspire_common:Language>
+                    </inspire_common:SupportedLanguage>
+                </inspire_common:SupportedLanguages>
+                <inspire_common:ResponseLanguage>
+                    <inspire_common:Language>ger</inspire_common:Language>
+                </inspire_common:ResponseLanguage>
+            </inspire_vs:ExtendedCapabilities>
+        </VendorSpecificCapabilities>
+        <Layer>
+            <Name>mywmsfile</Name>
+            <Title>Naturschutzgebiet</Title>
+            <Abstract>Naturschutzgebiete - Informationen der Naturschutzverwaltung Rheinland-Pfalz</Abstract>
+            <KeywordList>
+                <Keyword>Schutzgebiete</Keyword>
+                <Keyword>Landschaftsinformationssystem</Keyword>
+                <Keyword>Naturschutz</Keyword>
+                <Keyword>Naturschutzgebiet</Keyword>
+                <Keyword>Lanis</Keyword>
+            </KeywordList>
+            <SRS>EPSG:4326</SRS>
+            <SRS>EPSG:25832</SRS>
+            <SRS>EPSG:31466</SRS>
+            <SRS>EPSG:31467</SRS>
+            <SRS>EPSG:4258</SRS>
+            <SRS>EPSG:3857</SRS>
+            <LatLonBoundingBox minx="6.05975" miny="48.9344" maxx="8.51291" maxy="50.9475"/>
+            <BoundingBox SRS="EPSG:4326" minx="6.05975" miny="48.9344" maxx="8.51291" maxy="50.9475"/>
+            <BoundingBox SRS="EPSG:25832" minx="293310" miny="5424000" maxx="464350" maxy="5644100"/>
+            <BoundingBox SRS="EPSG:31466" minx="2504422.17194149" miny="5421896.07773338" maxx="2676630.72595232" maxy="5648815.36662798"/>
+            <BoundingBox SRS="EPSG:31467" minx="3284662.84352397" miny="5426061.02052449" maxx="3465843.25781221" maxy="5645917.83827271"/>
+            <BoundingBox SRS="EPSG:4258" minx="6.05975" miny="48.9344" maxx="8.51291" maxy="50.9475"/>
+            <BoundingBox SRS="EPSG:3857" minx="674568.28433454" miny="6263737.76794311" maxx="947652.806368966" maxy="6612012.32941064"/>
+            <AuthorityURL name="SGD-Nord - AG GIS">
+                <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://www.sgdnord.rlp.de"/>
+            </AuthorityURL>
+            <Layer queryable="1">
+                <Name>naturschutzgebiet</Name>
+                <Title>Naturschutzgebiet</Title>
+                <Abstract>Naturschutzgebiete - Informationen der Naturschutzverwaltung Rheinland-Pfalz</Abstract>
+                <KeywordList>
+                    <Keyword>Empty keyword was given, please add a keyword to your layer ressource.</Keyword>
+                </KeywordList>
+                <SRS>EPSG:25832</SRS>
+                <SRS>EPSG:31467</SRS>
+                <SRS>EPSG:4258</SRS>
+                <SRS>EPSG:4326</SRS>
+                <SRS>EPSG:31466</SRS>
+                <SRS>EPSG:3857</SRS>
+                <LatLonBoundingBox minx="6.05975" miny="48.9344" maxx="8.51291" maxy="50.9475"/>
+                <BoundingBox SRS="EPSG:4326" minx="6.05975" miny="48.9344" maxx="8.51291" maxy="50.9475"/>
+                <BoundingBox SRS="EPSG:25832" minx="293310" miny="5424000" maxx="464350" maxy="5644100"/>
+                <BoundingBox SRS="EPSG:31466" minx="2504422.17194149" miny="5421896.07773338" maxx="2676630.72595232" maxy="5648815.36662798"/>
+                <BoundingBox SRS="EPSG:31467" minx="3284662.84352397" miny="5426061.02052449" maxx="3465843.25781221" maxy="5645917.83827271"/>
+                <BoundingBox SRS="EPSG:4258" minx="6.05975" miny="48.9344" maxx="8.51291" maxy="50.9475"/>
+                <BoundingBox SRS="EPSG:3857" minx="674568.28433454" miny="6263737.76794311" maxx="947652.806368966" maxy="6612012.32941064"/>
+                <Identifier authority="SGD-Nord - AG GIS">c2019e4f3a3b1caf5c6198a4343bf249</Identifier>
+                <MetadataURL type="TC211">
+                    <Format>text/xml</Format>
+                    <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://map1.naturschutz.rlp.de/metadaten_sgdn/ajax/getxml.php?id=4280" xlink:type="simple"/>
+                </MetadataURL>
+                <DataURL>
+                    <Format>text/html</Format>
+                    <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="30825" xlink:type="simple"/>
+                </DataURL>
+                <Style>
+                    <Name>default</Name>
+                    <Title>default</Title>
+                    <LegendURL width="10" height="8">
+                        <Format>image/png</Format>
+                        <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://map1.naturschutz.rlp.de/service_lanis/mod_wms/wms_getmap.php?mapfile=naturschutzgebiet&amp;version=1.1.1&amp;service=WMS&amp;request=GetLegendGraphic&amp;layer=naturschutzgebiet&amp;format=image/png" xlink:type="simple"/>
+                    </LegendURL>
+                </Style>
+                <ScaleHint min="0" max="0"/>
+            </Layer>
+        </Layer>
+    </Capability>
+</WMT_MS_Capabilities>
