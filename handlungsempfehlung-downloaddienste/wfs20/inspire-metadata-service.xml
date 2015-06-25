@@ -1,0 +1,642 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MD_Metadata xmlns="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://schemas.opengis.net/iso/19139/20070417/gmd/gmd.xsd http://www.isotc211.org/2005/srv http://schemas.opengis.net/iso/19139/20060504/srv/srv.xsd">
+    <fileIdentifier>
+        <gco:CharacterString>c074cc06-b046-4d87-9e5e-d9503647de8b</gco:CharacterString>
+    </fileIdentifier>
+    <language>
+        <LanguageCode codeList="http://www.loc.gov/standards/iso639-2" codeListValue="ger">Deutsch</LanguageCode>
+    </language>
+    <characterSet>
+        <MD_CharacterSetCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8">utf8</MD_CharacterSetCode>
+    </characterSet>
+    <hierarchyLevel>
+        <MD_ScopeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_ScopeCode" codeListValue="service">service</MD_ScopeCode>
+    </hierarchyLevel>
+    <hierarchyLevelName>
+        <gco:CharacterString>Downloaddienst</gco:CharacterString>
+    </hierarchyLevelName>
+    <contact>
+        <CI_ResponsibleParty>
+            <individualName>
+                <gco:CharacterString>Jürgen Weichand</gco:CharacterString>
+            </individualName>
+            <organisationName>
+                <gco:CharacterString>geoinformatik blog (privat)</gco:CharacterString>
+            </organisationName>
+            <contactInfo>
+                <CI_Contact>
+                    <address>
+                        <CI_Address>
+                            <deliveryPoint>
+                                <gco:CharacterString>Am Schäferanger 5</gco:CharacterString>
+                            </deliveryPoint>
+                            <city>
+                                <gco:CharacterString>Oberschleißheim</gco:CharacterString>
+                            </city>
+                            <administrativeArea>
+                                <gco:CharacterString>Bayern</gco:CharacterString>
+                            </administrativeArea>
+                            <postalCode>
+                                <gco:CharacterString>85764</gco:CharacterString>
+                            </postalCode>
+                            <country>
+                                <gco:CharacterString>Deutschland</gco:CharacterString>
+                            </country>
+                            <electronicMailAddress>
+                                <gco:CharacterString>geo@weichand.de</gco:CharacterString>
+                            </electronicMailAddress>
+                        </CI_Address>
+                    </address>
+                    <onlineResource>
+                        <CI_OnlineResource>
+                            <linkage>
+                                <URL>http://www.weichand.de</URL>
+                            </linkage>
+                        </CI_OnlineResource>
+                    </onlineResource>
+                </CI_Contact>
+            </contactInfo>
+            <role>
+                <CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact">pointOfContact</CI_RoleCode>
+            </role>
+        </CI_ResponsibleParty>
+    </contact>
+    <dateStamp>
+        <gco:Date>2015-04-09</gco:Date>
+    </dateStamp>
+    <metadataStandardName>
+        <gco:CharacterString>ISO 19115 - Geographic Information - Metadata; Metadatenprofil der GDI Bayern</gco:CharacterString>
+    </metadataStandardName>
+    <metadataStandardVersion>
+        <gco:CharacterString>ISO 19115:2003/Cor. 1:2006; ISO 19119:2005/Amd 1:2008</gco:CharacterString>
+    </metadataStandardVersion>
+    <referenceSystemInfo>
+        <MD_ReferenceSystem>
+            <referenceSystemIdentifier>
+                <RS_Identifier>
+                    <code>
+                        <gco:CharacterString>31467</gco:CharacterString>
+                    </code>
+                    <codeSpace>
+                        <gco:CharacterString>EPSG geodesy parameters</gco:CharacterString>
+                    </codeSpace>
+                    <version>
+                        <gco:CharacterString>7.8</gco:CharacterString>
+                    </version>
+                </RS_Identifier>
+            </referenceSystemIdentifier>
+        </MD_ReferenceSystem>
+    </referenceSystemInfo>
+    <referenceSystemInfo>
+        <MD_ReferenceSystem>
+            <referenceSystemIdentifier>
+                <RS_Identifier>
+                    <code>
+                        <gco:CharacterString>31468</gco:CharacterString>
+                    </code>
+                    <codeSpace>
+                        <gco:CharacterString>EPSG geodesy parameters</gco:CharacterString>
+                    </codeSpace>
+                    <version>
+                        <gco:CharacterString>7.8</gco:CharacterString>
+                    </version>
+                </RS_Identifier>
+            </referenceSystemIdentifier>
+        </MD_ReferenceSystem>
+    </referenceSystemInfo>
+    <referenceSystemInfo>
+        <MD_ReferenceSystem>
+            <referenceSystemIdentifier>
+                <RS_Identifier>
+                    <code>
+                        <gco:CharacterString>31469</gco:CharacterString>
+                    </code>
+                    <codeSpace>
+                        <gco:CharacterString>EPSG geodesy parameters</gco:CharacterString>
+                    </codeSpace>
+                    <version>
+                        <gco:CharacterString>7.8</gco:CharacterString>
+                    </version>
+                </RS_Identifier>
+            </referenceSystemIdentifier>
+        </MD_ReferenceSystem>
+    </referenceSystemInfo>
+    <referenceSystemInfo>
+        <MD_ReferenceSystem>
+            <referenceSystemIdentifier>
+                <RS_Identifier>
+                    <code>
+                        <gco:CharacterString>25832</gco:CharacterString>
+                    </code>
+                    <codeSpace>
+                        <gco:CharacterString>EPSG geodesy parameters</gco:CharacterString>
+                    </codeSpace>
+                    <version>
+                        <gco:CharacterString>7.8</gco:CharacterString>
+                    </version>
+                </RS_Identifier>
+            </referenceSystemIdentifier>
+        </MD_ReferenceSystem>
+    </referenceSystemInfo>
+    <referenceSystemInfo>
+        <MD_ReferenceSystem>
+            <referenceSystemIdentifier>
+                <RS_Identifier>
+                    <code>
+                        <gco:CharacterString>25833</gco:CharacterString>
+                    </code>
+                    <codeSpace>
+                        <gco:CharacterString>EPSG geodesy parameters</gco:CharacterString>
+                    </codeSpace>
+                    <version>
+                        <gco:CharacterString>7.8</gco:CharacterString>
+                    </version>
+                </RS_Identifier>
+            </referenceSystemIdentifier>
+        </MD_ReferenceSystem>
+    </referenceSystemInfo>
+    <referenceSystemInfo>
+        <MD_ReferenceSystem>
+            <referenceSystemIdentifier>
+                <RS_Identifier>
+                    <code>
+                        <gco:CharacterString>4326</gco:CharacterString>
+                    </code>
+                    <codeSpace>
+                        <gco:CharacterString>EPSG geodesy parameters</gco:CharacterString>
+                    </codeSpace>
+                    <version>
+                        <gco:CharacterString>7.8</gco:CharacterString>
+                    </version>
+                </RS_Identifier>
+            </referenceSystemIdentifier>
+        </MD_ReferenceSystem>
+    </referenceSystemInfo>
+    <referenceSystemInfo>
+        <MD_ReferenceSystem>
+            <referenceSystemIdentifier>
+                <RS_Identifier>
+                    <code>
+                        <gco:CharacterString>4258</gco:CharacterString>
+                    </code>
+                    <codeSpace>
+                        <gco:CharacterString>EPSG geodesy parameters</gco:CharacterString>
+                    </codeSpace>
+                    <version>
+                        <gco:CharacterString>7.8</gco:CharacterString>
+                    </version>
+                </RS_Identifier>
+            </referenceSystemIdentifier>
+        </MD_ReferenceSystem>
+    </referenceSystemInfo>
+    <identificationInfo>
+        <!-- ######################################################################## -->
+        <srv:SV_ServiceIdentification uuid="eea97fc0-b6bf-11e1-afa6-0800200c9a66">
+            <!-- ######################################################################## -->
+            <citation>
+                <CI_Citation>
+                    <title>
+                        <gco:CharacterString>Verwaltungsgrenzen - WFS 2.0 DemoServer</gco:CharacterString>
+                    </title>
+                    <date>
+                        <CI_Date>
+                            <date>
+                                <gco:Date>2014-04-23</gco:Date>
+                            </date>
+                            <dateType>
+                                <CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</CI_DateTypeCode>
+                            </dateType>
+                        </CI_Date>
+                    </date>
+                    <identifier>
+                        <MD_Identifier>
+                            <code>
+                                <gco:CharacterString>http://geoportal.bayern.de/service/eea97fc0-b6bf-11e1-afa6-0800200c9a66</gco:CharacterString>
+                            </code>
+                        </MD_Identifier>
+                    </identifier>
+                </CI_Citation>
+            </citation>
+            <abstract>
+                <gco:CharacterString>Bei dem Downloaddienst handelt es sich um die prototypische Umsetzung eines INSPIRE-konformen Web Feature Service in der Version 2.0.0.
+                    Der WFS wurde im Rahmen der Masterarbeit Entwicklung und Anwendung von Downloaddiensten im Kontext der europäischen Geodateninfrastruktur INSPIRE entwickelt.
+                    Die bereitgestellten FeatureTypes basieren auf den OpenData Verwaltungsgrenzen (ATKIS) der Bayerischen Vermessungsverwaltung (http://vermessung.bayern.de/opendata). 
+                    Der Dienst übermittelt die Objekte von Gemeinden, Landkreisen, Regierungsbezirken und Verwaltungsgemeinschaften sowie die Grenze des Freistaat Bayern. 
+                    Datenquelle: Bayerische Vermessungsverwaltung – www.geodaten.bayern.de
+                    Haftungsausschluss: Für den Dienst kann keine Gewähr übernommen werden.</gco:CharacterString>
+            </abstract>
+            <pointOfContact>
+                <CI_ResponsibleParty>
+                    <individualName>
+                        <gco:CharacterString>Jürgen Weichand</gco:CharacterString>
+                    </individualName>
+                    <organisationName>
+                        <gco:CharacterString>geoinformatik blog (privat)</gco:CharacterString>
+                    </organisationName>
+                    <contactInfo>
+                        <CI_Contact>
+                            <address>
+                                <CI_Address>
+                                    <deliveryPoint>
+                                        <gco:CharacterString>Am Schäferanger 5</gco:CharacterString>
+                                    </deliveryPoint>
+                                    <city>
+                                        <gco:CharacterString>Oberschleißheim</gco:CharacterString>
+                                    </city>
+                                    <administrativeArea>
+                                        <gco:CharacterString>Bayern</gco:CharacterString>
+                                    </administrativeArea>
+                                    <postalCode>
+                                        <gco:CharacterString>85764</gco:CharacterString>
+                                    </postalCode>
+                                    <country>
+                                        <gco:CharacterString>Deutschland</gco:CharacterString>
+                                    </country>
+                                    <electronicMailAddress>
+                                        <gco:CharacterString>geo@weichand.de</gco:CharacterString>
+                                    </electronicMailAddress>
+                                </CI_Address>
+                            </address>
+                            <onlineResource>
+                                <CI_OnlineResource>
+                                    <linkage>
+                                        <URL>http://www.weichand.de</URL>
+                                    </linkage>
+                                </CI_OnlineResource>
+                            </onlineResource>
+                        </CI_Contact>
+                    </contactInfo>
+                    <role>
+                        <CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact">pointOfContact</CI_RoleCode>
+                    </role>
+                </CI_ResponsibleParty>
+            </pointOfContact>
+            <resourceMaintenance>
+                <MD_MaintenanceInformation>
+                    <maintenanceAndUpdateFrequency>
+                        <MD_MaintenanceFrequencyCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_MaintenanceFrequencyCode" codeListValue="asNeeded">asNeeded</MD_MaintenanceFrequencyCode>
+                    </maintenanceAndUpdateFrequency>
+                </MD_MaintenanceInformation>
+            </resourceMaintenance>
+            <graphicOverview>
+                <MD_BrowseGraphic>
+                    <fileName>
+                        <gco:CharacterString>http://www.geodaten.bayern.de/gdiadmin/images/17022/verwa_grenzen.png</gco:CharacterString>
+                    </fileName>
+                    <fileDescription>
+                        <gco:CharacterString>Vorschaubild</gco:CharacterString>
+                    </fileDescription>
+                </MD_BrowseGraphic>
+            </graphicOverview>
+            <descriptiveKeywords>
+                <MD_Keywords>
+                    <keyword>
+                        <gco:CharacterString>infoFeatureAccessService</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Verwaltungsgrenzen</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Bayern</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>WFS 2.0</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Downloadservice</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Downloaddienst</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>INSPIRE</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>beMasterGIS</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Verwaltungseinheiten</gco:CharacterString>
+                    </keyword>
+                </MD_Keywords>
+            </descriptiveKeywords>
+            <resourceConstraints>
+                <MD_LegalConstraints>
+                    <accessConstraints>
+                        <MD_RestrictionCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_RestrictionCode" codeListValue="copyright">copyright</MD_RestrictionCode>
+                    </accessConstraints>
+                </MD_LegalConstraints>
+            </resourceConstraints>
+            <resourceConstraints>
+                <MD_LegalConstraints>
+                    <useLimitation>
+                        <gco:CharacterString>Nutzungsbedingungen: Der Datensatz/Dienst steht unter der folgender Lizenz: Creative Commons Namensnennung (CC BY). Die Namensnennung hat in folgender Weise zu erfolgen: "Datenquelle: Bayerische Vermessungsverwaltung – www.geodaten.bayern.de".</gco:CharacterString>
+                    </useLimitation>
+                    <useConstraints>
+                        <MD_RestrictionCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_RestrictionCode" codeListValue="license">license</MD_RestrictionCode>
+                    </useConstraints>
+                    <useConstraints>
+                        <MD_RestrictionCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_RestrictionCode" codeListValue="otherRestrictions">otherRestrictions</MD_RestrictionCode>
+                    </useConstraints>
+                    <otherConstraints>
+                        <gco:CharacterString>Nutzungsbedingungen: Der Datensatz/Dienst steht unter der folgender Lizenz: Creative Commons Namensnennung (CC BY). Die Namensnennung hat in folgender Weise zu erfolgen: "Datenquelle: Bayerische Vermessungsverwaltung – www.geodaten.bayern.de".</gco:CharacterString>
+                    </otherConstraints>
+                    <otherConstraints>
+                        <gco:CharacterString>
+                            {
+                                "id": "cc-by",
+                                "name": "Creative Commons Namensnennung (CC BY)",
+                                "quelle": "Datenquelle: Bayerische Vermessungsverwaltung – www.geodaten.bayern.de",
+                                "url": "http://creativecommons.org/licenses/by/3.0/deed.de"
+                            }
+                        </gco:CharacterString>
+                    </otherConstraints>
+                </MD_LegalConstraints>
+            </resourceConstraints>
+            <resourceConstraints>
+                <MD_SecurityConstraints>
+                    <classification>
+                        <MD_ClassificationCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_ClassificationCode" codeListValue="unclassified">unclassified</MD_ClassificationCode>
+                    </classification>
+                </MD_SecurityConstraints>
+            </resourceConstraints>
+            <!-- ######################################################################## -->
+            <srv:serviceType>
+                <gco:LocalName>download</gco:LocalName>
+            </srv:serviceType>
+            <srv:serviceTypeVersion>
+                <gco:CharacterString>OGC:WFS 2.0</gco:CharacterString>
+            </srv:serviceTypeVersion>
+            <srv:extent>
+                <EX_Extent>
+                    <description>
+                        <gco:CharacterString>Bayern</gco:CharacterString>
+                    </description>
+                    <geographicElement>
+                        <EX_GeographicBoundingBox>
+                            <westBoundLongitude>
+                                <gco:Decimal>8.945096154917964</gco:Decimal>
+                            </westBoundLongitude>
+                            <eastBoundLongitude>
+                                <gco:Decimal>13.908908586487573</gco:Decimal>
+                            </eastBoundLongitude>
+                            <southBoundLatitude>
+                                <gco:Decimal>47.24843532655711</gco:Decimal>
+                            </southBoundLatitude>
+                            <northBoundLatitude>
+                                <gco:Decimal>50.56420950059199</gco:Decimal>
+                            </northBoundLatitude>
+                        </EX_GeographicBoundingBox>
+                    </geographicElement>
+                </EX_Extent>
+            </srv:extent>
+            <srv:couplingType>
+                <srv:SV_CouplingType codeList="./resources/codelist/gmxCodelists.xml#SV_CouplingType" codeListValue="tight">tight</srv:SV_CouplingType>
+            </srv:couplingType>
+            <srv:containsOperations>
+                <srv:SV_OperationMetadata>
+                    <srv:operationName>
+                        <gco:CharacterString>GetCapabilities</gco:CharacterString>
+                    </srv:operationName>
+                    <srv:DCP>
+                        <srv:DCPList codeList="./resources/codelist/gmxCodelists.xml#DCPList" codeListValue="WebServices" />
+                    </srv:DCP>
+                    <srv:connectPoint>
+                        <CI_OnlineResource>
+                            <linkage>
+                                <URL>http://geoserv.weichand.de:8080/geoserver/wfs</URL>
+                            </linkage>
+                        </CI_OnlineResource>
+                    </srv:connectPoint>
+                </srv:SV_OperationMetadata>
+            </srv:containsOperations>
+            <srv:containsOperations>
+                <srv:SV_OperationMetadata>
+                    <srv:operationName>
+                        <gco:CharacterString>DescribeFeatureType</gco:CharacterString>
+                    </srv:operationName>
+                    <srv:DCP>
+                        <srv:DCPList codeList="./resources/codelist/gmxCodelists.xml#DCPList" codeListValue="WebServices" />
+                    </srv:DCP>
+                    <srv:connectPoint>
+                        <CI_OnlineResource>
+                            <linkage>
+                                <URL>http://geoserv.weichand.de:8080/geoserver/wfs</URL>
+                            </linkage>
+                        </CI_OnlineResource>
+                    </srv:connectPoint>
+                </srv:SV_OperationMetadata>
+            </srv:containsOperations>
+            <srv:containsOperations>
+                <srv:SV_OperationMetadata>
+                    <srv:operationName>
+                        <gco:CharacterString>GetFeature</gco:CharacterString>
+                    </srv:operationName>
+                    <srv:DCP>
+                        <srv:DCPList codeList="./resources/codelist/gmxCodelists.xml#DCPList" codeListValue="WebServices" />
+                    </srv:DCP>
+                    <srv:connectPoint>
+                        <CI_OnlineResource>
+                            <linkage>
+                                <URL>http://geoserv.weichand.de:8080/geoserver/wfs</URL>
+                            </linkage>
+                        </CI_OnlineResource>
+                    </srv:connectPoint>
+                </srv:SV_OperationMetadata>
+            </srv:containsOperations>
+            <srv:containsOperations>
+                <srv:SV_OperationMetadata>
+                    <srv:operationName>
+                        <gco:CharacterString>GetPropertyValue</gco:CharacterString>
+                    </srv:operationName>
+                    <srv:DCP>
+                        <srv:DCPList codeList="./resources/codelist/gmxCodelists.xml#DCPList" codeListValue="WebServices" />
+                    </srv:DCP>
+                    <srv:connectPoint>
+                        <CI_OnlineResource>
+                            <linkage>
+                                <URL>http://geoserv.weichand.de:8080/geoserver/wfs</URL>
+                            </linkage>
+                        </CI_OnlineResource>
+                    </srv:connectPoint>
+                </srv:SV_OperationMetadata>
+            </srv:containsOperations>
+            <srv:containsOperations>
+                <srv:SV_OperationMetadata>
+                    <srv:operationName>
+                        <gco:CharacterString>ListStoredQueries</gco:CharacterString>
+                    </srv:operationName>
+                    <srv:DCP>
+                        <srv:DCPList codeList="./resources/codelist/gmxCodelists.xml#DCPList" codeListValue="WebServices" />
+                    </srv:DCP>
+                    <srv:connectPoint>
+                        <CI_OnlineResource>
+                            <linkage>
+                                <URL>http://geoserv.weichand.de:8080/geoserver/wfs</URL>
+                            </linkage>
+                        </CI_OnlineResource>
+                    </srv:connectPoint>
+                </srv:SV_OperationMetadata>
+            </srv:containsOperations>
+            <srv:containsOperations>
+                <srv:SV_OperationMetadata>
+                    <srv:operationName>
+                        <gco:CharacterString>DescribeStoredQueries</gco:CharacterString>
+                    </srv:operationName>
+                    <srv:DCP>
+                        <srv:DCPList codeList="./resources/codelist/gmxCodelists.xml#DCPList" codeListValue="WebServices" />
+                    </srv:DCP>
+                    <srv:connectPoint>
+                        <CI_OnlineResource>
+                            <linkage>
+                                <URL>http://geoserv.weichand.de:8080/geoserver/wfs</URL>
+                            </linkage>
+                        </CI_OnlineResource>
+                    </srv:connectPoint>
+                </srv:SV_OperationMetadata>
+            </srv:containsOperations>
+            <srv:operatesOn />
+        </srv:SV_ServiceIdentification>
+        <!-- ######################################################################## -->
+    </identificationInfo>
+    <distributionInfo>
+        <MD_Distribution>
+            <distributionFormat>
+                <MD_Format>
+                    <name gco:nilReason="missing" />
+                    <version gco:nilReason="missing" />
+                </MD_Format>
+            </distributionFormat>
+            <distributor>
+                <MD_Distributor>
+                    <distributorContact>
+                        <CI_ResponsibleParty>
+                            <individualName>
+                                <gco:CharacterString>Jürgen Weichand</gco:CharacterString>
+                            </individualName>
+                            <organisationName>
+                                <gco:CharacterString>geoinformatik blog (privat)</gco:CharacterString>
+                            </organisationName>
+                            <contactInfo>
+                                <CI_Contact>
+                                    <address>
+                                        <CI_Address>
+                                            <deliveryPoint>
+                                                <gco:CharacterString>Am Schäferanger 5</gco:CharacterString>
+                                            </deliveryPoint>
+                                            <city>
+                                                <gco:CharacterString>Oberschleißheim</gco:CharacterString>
+                                            </city>
+                                            <administrativeArea>
+                                                <gco:CharacterString>Bayern</gco:CharacterString>
+                                            </administrativeArea>
+                                            <postalCode>
+                                                <gco:CharacterString>85764</gco:CharacterString>
+                                            </postalCode>
+                                            <country>
+                                                <gco:CharacterString>Deutschland</gco:CharacterString>
+                                            </country>
+                                            <electronicMailAddress>
+                                                <gco:CharacterString>geo@weichand.de</gco:CharacterString>
+                                            </electronicMailAddress>
+                                        </CI_Address>
+                                    </address>
+                                    <onlineResource>
+                                        <CI_OnlineResource>
+                                            <linkage>
+                                                <URL>http://www.weichand.de</URL>
+                                            </linkage>
+                                        </CI_OnlineResource>
+                                    </onlineResource>
+                                </CI_Contact>
+                            </contactInfo>
+                            <role>
+                                <CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact">pointOfContact</CI_RoleCode>
+                            </role>
+                        </CI_ResponsibleParty>
+                    </distributorContact>
+                    <distributionOrderProcess>
+                        <MD_StandardOrderProcess>
+                            <fees>
+                                <gco:CharacterString>geldleistungsfrei</gco:CharacterString>
+                            </fees>
+                        </MD_StandardOrderProcess>
+                    </distributionOrderProcess>
+                </MD_Distributor>
+            </distributor>
+            <transferOptions>
+                <MD_DigitalTransferOptions>
+                    <onLine>
+                        <CI_OnlineResource>
+                            <linkage>
+                                <URL>http://geoserv.weichand.de:8080/geoserver/wfs</URL>
+                            </linkage>
+                            <applicationProfile>
+                                <gco:CharacterString>WFS-URL</gco:CharacterString>
+                            </applicationProfile>
+                            <name>
+                                <gco:CharacterString>URL des Dienstes</gco:CharacterString>
+                            </name>
+                            <description>
+                                <gco:CharacterString>URL des Dienstes</gco:CharacterString>
+                            </description>
+                            <function>
+                                <CI_OnLineFunctionCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="download">download</CI_OnLineFunctionCode>
+                            </function>
+                        </CI_OnlineResource>
+                    </onLine>
+                </MD_DigitalTransferOptions>
+            </transferOptions>
+        </MD_Distribution>
+    </distributionInfo>
+    <dataQualityInfo>
+        <DQ_DataQuality>
+            <scope>
+                <DQ_Scope>
+                    <level>
+                        <MD_ScopeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_ScopeCode" codeListValue="service">service</MD_ScopeCode>
+                    </level>
+                </DQ_Scope>
+            </scope>
+            <report>
+                <DQ_DomainConsistency>
+                    <result>
+                        <DQ_ConformanceResult>
+                            <specification>
+                                <CI_Citation>
+                                    <title>
+                                        <gco:CharacterString>OpenGIS Web Feature Service 2.0 Interface Standard (OGC 09-025r1 and ISO/DIS 19142)</gco:CharacterString>
+                                    </title>
+                                    <date>
+                                        <CI_Date>
+                                            <date>
+                                                <gco:Date>2010-11-02</gco:Date>
+                                            </date>
+                                            <dateType>
+                                                <CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</CI_DateTypeCode>
+                                            </dateType>
+                                        </CI_Date>
+                                    </date>
+                                </CI_Citation>
+                            </specification>
+                            <explanation>
+                                <gco:CharacterString>Der Dienst ist konform zum WFS 2.0 Standard (nicht zertifiziert).</gco:CharacterString>
+                            </explanation>
+                            <pass>
+                                <gco:Boolean>true</gco:Boolean>
+                            </pass>
+                        </DQ_ConformanceResult>
+                    </result>
+                </DQ_DomainConsistency>
+            </report>
+            <lineage>
+                <LI_Lineage>
+                    <statement>
+                        <gco:CharacterString>Bei dem Downloaddienst handelt es sich um die prototypische Umsetzung eines INSPIRE-konformen Web Feature Service in der Version 2.0.0. 
+                            Haftungsausschluss: Für den Dienst kann keine Gewähr übernommen werden.</gco:CharacterString>
+                    </statement>
+                </LI_Lineage>
+            </lineage>
+        </DQ_DataQuality>
+    </dataQualityInfo>
+</MD_Metadata>
+

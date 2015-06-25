@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wfs:CreateStoredQuery service="WFS" version="2.0.0" xmlns="http://www.opengis.net/wfs/2.0"
+                       xmlns:wfs="http://www.opengis.net/wfs/2.0" xmlns:gml="http://www.opengis.net/gml/3.2"
+                       xmlns:fes="http://www.opengis.net/fes/2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                       xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:bvv="http://www.geodaten.bayern.de"
+                       xsi:schemaLocation="http://www.opengis.net/wfs/2.0 http://schemas.opengis.net/wfs/2.0/wfs.xsd
+                                            http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd"
+                       xmlns:ns1="http://www.opengis.net/ows/1.1">
+    <wfs:StoredQueryDefinition id="urn:wei:def:query:OGC-WFS::InspireStoredQueryExample">
+        <Title>INSPIRE pre-defined WFS - Stored Query Beispiel</Title>
+        <Abstract>Stored Query für den Download des Geodatensatzes 'OpenData Verwaltungsgrenzen
+            Bayern'</Abstract>
+        <!-- Koordinatenreferenzsystem z.B: urn:ogc:def:crs:EPSG::4258 -->
+        <wfs:Parameter name="CRS" type="xsd:string"/>
+        <!-- Datensatzidentifikator - im Beispiel ohne Funktion -->
+        <wfs:Parameter name="DataSetId" type="xsd:string"/>
+        <!-- Sprache - im Beispiel ohne Funktion -->
+        <wfs:Parameter name="Language" type="xsd:string"/>
+        <wfs:QueryExpressionText returnFeatureTypes="bvv:bayern_ex bvv:lkr_ex bvv:gmd_ex bvv:regbez_ex bvv:vg_ex" 
+                                 language="urn:ogc:def:queryLanguage:OGC-WFS::WFS_QueryExpression">
+            <wfs:Query typeNames="schema-element(gml:AbstractFeature)" srsName="${CRS}"/>
+        </wfs:QueryExpressionText>
+    </wfs:StoredQueryDefinition>
+</wfs:CreateStoredQuery>
