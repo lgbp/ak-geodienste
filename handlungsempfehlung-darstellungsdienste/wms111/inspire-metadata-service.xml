@@ -130,10 +130,10 @@
             </gmd:resourceConstraints>
             <gmd:resourceConstraints>
                 <gmd:MD_LegalConstraints>
-					<gmd:useLimitation>
+		    <gmd:useLimitation>
                         <gco:CharacterString>Nutzungsbedingungen: Es gelten keine Bedingungen</gco:CharacterString>
                     </gmd:useLimitation>
-				</gmd:MD_LegalConstraints>
+	        </gmd:MD_LegalConstraints>
             </gmd:resourceConstraints>
             <gmd:resourceConstraints>
                 <gmd:MD_LegalConstraints>
@@ -150,13 +150,23 @@
                     <gmd:useConstraints>
                         <gmd:MD_RestrictionCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_RetrictionCode" codeListValue="license">license</gmd:MD_RestrictionCode>
                     </gmd:useConstraints>
-					<gmd:useConstraints>
+		    <gmd:useConstraints>
                         <gmd:MD_RestrictionCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_RetrictionCode" codeListValue="otherRestrictions">otherRestrictions</gmd:MD_RestrictionCode>
                     </gmd:useConstraints>
                     <gmd:otherConstraints>
                         <gco:CharacterString>Nutzungsbedingungen: Es gelten keine Bedingungen</gco:CharacterString>
                     </gmd:otherConstraints>
-			    </gmd:MD_LegalConstraints>
+                    <gmd:otherConstraints>
+                        <gco:CharacterString>
+			{
+			"id": "geonutzv-de-2015-05-15"
+			"name": "Nutzungsbestimmungen für die Bereitstellung von Geodaten des Bundes"
+			"url": "http://geodatenzentrum.de/docpdf/geonutzv.pdf"
+			"quelle": "Quelle: @GeoBasis-DE / BKG, 2015"
+			}
+			</gco:CharacterString>
+                    </gmd:otherConstraints>
+		</gmd:MD_LegalConstraints>
             </gmd:resourceConstraints>
             <srv:serviceType>
                 <gco:LocalName>view</gco:LocalName>
