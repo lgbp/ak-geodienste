@@ -122,11 +122,11 @@
                 </gmd:MD_Keywords>
             </gmd:descriptiveKeywords>
             <gmd:resourceConstraints>
-                <gmd:MD_Constraints>
+                <gmd:MD_LegalConstraints>
                     <gmd:useLimitation>
                         <gco:CharacterString>Nutzungseinschränkungen: Es gelten keine Einschränkungen</gco:CharacterString>
                     </gmd:useLimitation>
-                </gmd:MD_Constraints>
+                </gmd:MD_LegalConstraints>
             </gmd:resourceConstraints>
             <gmd:resourceConstraints>
                 <gmd:MD_LegalConstraints>
