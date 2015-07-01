@@ -19,8 +19,8 @@
         </ows:Keywords>
         <ows:ServiceType>WFS</ows:ServiceType>
         <ows:ServiceTypeVersion>2.0.0</ows:ServiceTypeVersion>
-        <ows:Fees>NONE</ows:Fees>
-        <ows:AccessConstraints>NONE</ows:AccessConstraints>
+        <ows:Fees>Nutzungseinschränkungen: Es gelten keine Einschränkungen</ows:Fees>
+        <ows:AccessConstraints>no constraints</ows:AccessConstraints>
     </ows:ServiceIdentification>
     <ows:ServiceProvider>
         <ows:ProviderName>Jürgen Weichand | geoinformatik blog</ows:ProviderName>
