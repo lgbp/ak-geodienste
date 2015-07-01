@@ -245,7 +245,7 @@
                 <!-- SpatialDatasetIdentifier -->
                 <inspire_dls:SpatialDataSetIdentifier>
                     <inspire_common:Code>DEBY_eea97fc0-b6bf-11e1-afa6-0800200c9a66</inspire_common:Code>
-                    <inspire_common:Namespace>http://www.geodaten.bayern.de</inspire_common:Namespace>
+                    <inspire_common:Namespace>https://registry.gdi-de.org/id/gdi-by/</inspire_common:Namespace>
                 </inspire_dls:SpatialDataSetIdentifier>
             </inspire_dls:ExtendedCapabilities>
         </ows:ExtendedCapabilities>
