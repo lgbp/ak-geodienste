@@ -12,7 +12,7 @@ for dirpath, dirnames, files in os.walk(basedir):
     for name in files:
 
         # Überprüfung aller XML-Dateien
-        if name.lower().endswith('.xml'):
+        if name.lower().endswith('service.xml'):
             xmlfilename = (os.path.join(dirpath, name))
 
             # XML mit lxml verarbeiten
@@ -45,6 +45,7 @@ for dirpath, dirnames, files in os.walk(basedir):
                     xsd.assertValid(xmldoc)
                 except etree.DocumentInvalid as e:
                     print(e)
+                    exit(1)
 
 
 
