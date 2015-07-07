@@ -7,7 +7,8 @@ install:
     - sudo apt-get install libxml2-dev libxslt-dev python-dev
     - sudo apt-get install python-pip 
     - sudo pip install lxml
+    - sudo pip install requests
+    - sudo pip install suds-jurko
 
 script:
-    - python python/check-xml.py
-    - python python/validate-xml.py
+    - python python/test-testsuite.py
