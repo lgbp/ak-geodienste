@@ -15,5 +15,5 @@ install:
 
 script:
     - python python/test-xml-wellformed.py
-    - python python/test-xml-valide.py
+    - python python/test-xml-validate.py
     - python python/test-testsuite.py

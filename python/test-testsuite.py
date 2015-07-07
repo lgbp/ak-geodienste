@@ -6,9 +6,10 @@ import requests
 
 
 basedir = '../'
-baseurl = 'https://raw.githubusercontent.com/JuergenWeichand/ak-geodienste/master'
+baseurl = 'https://raw.githubusercontent.com/JuergenWeichand/ak-geodienste/master/'
 
 testmapping = {}
+has_failure = False
 
 for dirpath, dirnames, files in os.walk(basedir):
     for name in files:
@@ -17,6 +18,9 @@ for dirpath, dirnames, files in os.walk(basedir):
         if name.lower().endswith('.xml'):
             xmlfilename = (os.path.join(dirpath, name))
             url = baseurl + xmlfilename.replace(basedir, '')
+
+
+            print url
 
             response = requests.get(url).text
             testklassen = []
@@ -75,7 +79,6 @@ for dirpath, dirnames, files in os.walk(basedir):
                 parameter_get_test_report = {'reportID': report_id}
                 parameter_get_test_report.update(credentials)
                 test_report = client.service.getTestReport(**parameter_get_test_report)
-                has_failure = False
                 for k, item in enumerate(test_report.item):
 
                     # Iteriere über die einzelnen Tests...
