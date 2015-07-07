@@ -8,3 +8,4 @@ install:
 
 script:
     - python python/check-xml.py
+    - python python/validate-xml.py
