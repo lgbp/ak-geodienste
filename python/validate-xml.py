@@ -43,7 +43,7 @@ for dirpath, dirnames, files in os.walk(basedir):
 
                     # Validierung der XML-Datei gegen das temporäre Schema
                     try:
-                        print 'Validiere ' + xmlfilename + ' gegen ' + etree.tostring(xsddoc)
+                        print 'Validiere ' + xmlfilename + ' gegen: \n' + etree.tostring(xsddoc,pretty_print=True)
                         xsd = etree.XMLSchema(etree.XML(etree.tostring(xsddoc)))
                         xsd.assertValid(xmldoc)
                     except etree.DocumentInvalid as e:
