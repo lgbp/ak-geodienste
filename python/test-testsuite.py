@@ -5,7 +5,7 @@ import os
 import requests
 
 
-basedir = '../'
+basedir = '../ak-geodienste/'
 baseurl = 'https://raw.githubusercontent.com/JuergenWeichand/ak-geodienste/master/'
 
 testmapping = {}
@@ -18,9 +18,6 @@ for dirpath, dirnames, files in os.walk(basedir):
         if name.lower().endswith('.xml'):
             xmlfilename = (os.path.join(dirpath, name))
             url = baseurl + xmlfilename.replace(basedir, '')
-
-
-            print url
 
             response = requests.get(url).text
             testklassen = []
