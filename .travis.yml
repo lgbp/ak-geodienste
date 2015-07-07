@@ -4,6 +4,7 @@ before_install:
     - sudo apt-get update
     
 install:
+    - sudo apt-get install python-lxml
 
 script:
     - python python/check-xml.py
