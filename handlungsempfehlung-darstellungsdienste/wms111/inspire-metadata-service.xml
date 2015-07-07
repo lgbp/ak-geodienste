@@ -122,11 +122,18 @@
                 </gmd:MD_Keywords>
             </gmd:descriptiveKeywords>
             <gmd:resourceConstraints>
-                <gmd:MD_Constraints>
+                <gmd:MD_LegalConstraints>
                     <gmd:useLimitation>
-                        <gco:CharacterString>none</gco:CharacterString>
+                        <gco:CharacterString>Nutzungseinschränkungen: Es gelten keine Einschränkungen</gco:CharacterString>
                     </gmd:useLimitation>
-                </gmd:MD_Constraints>
+                </gmd:MD_LegalConstraints>
+            </gmd:resourceConstraints>
+            <gmd:resourceConstraints>
+                <gmd:MD_LegalConstraints>
+		    <gmd:useLimitation>
+                        <gco:CharacterString>Nutzungsbedingungen: Es gelten keine Bedingungen</gco:CharacterString>
+                    </gmd:useLimitation>
+	        </gmd:MD_LegalConstraints>
             </gmd:resourceConstraints>
             <gmd:resourceConstraints>
                 <gmd:MD_LegalConstraints>
@@ -134,9 +141,32 @@
                         <gmd:MD_RestrictionCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_RetrictionCode" codeListValue="otherRestrictions">otherRestrictions</gmd:MD_RestrictionCode>
                     </gmd:accessConstraints>
                     <gmd:otherConstraints>
-                        <gco:CharacterString>no constraints</gco:CharacterString>
+                        <gco:CharacterString>Nutzungsbedingungen: Es gelten keine Bedingungen</gco:CharacterString>
                     </gmd:otherConstraints>
                 </gmd:MD_LegalConstraints>
+            </gmd:resourceConstraints>
+            <gmd:resourceConstraints>
+                <gmd:MD_LegalConstraints>
+                    <gmd:useConstraints>
+                        <gmd:MD_RestrictionCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_RetrictionCode" codeListValue="license">license</gmd:MD_RestrictionCode>
+                    </gmd:useConstraints>
+		    <gmd:useConstraints>
+                        <gmd:MD_RestrictionCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_RetrictionCode" codeListValue="otherRestrictions">otherRestrictions</gmd:MD_RestrictionCode>
+                    </gmd:useConstraints>
+                    <gmd:otherConstraints>
+                        <gco:CharacterString>Nutzungsbedingungen: Es gelten keine Bedingungen</gco:CharacterString>
+                    </gmd:otherConstraints>
+                    <gmd:otherConstraints>
+                        <gco:CharacterString>
+			{
+			"id": "geonutzv-de-2015-05-15"
+			"name": "Nutzungsbestimmungen für die Bereitstellung von Geodaten des Bundes"
+			"url": "http://geodatenzentrum.de/docpdf/geonutzv.pdf"
+			"quelle": "Quelle: @GeoBasis-DE / BKG, 2015"
+			}
+			</gco:CharacterString>
+                    </gmd:otherConstraints>
+		</gmd:MD_LegalConstraints>
             </gmd:resourceConstraints>
             <srv:serviceType>
                 <gco:LocalName>view</gco:LocalName>
@@ -184,7 +214,7 @@
                     </srv:connectPoint>
                 </srv:SV_OperationMetadata>
             </srv:containsOperations>
-            <srv:operatesOn xlink:href="http://www.geoportal.rlp.de/mapbender/php/mod_dataISOMetadata.php?outputFormat=iso19139&amp;id=c2019e4f-3a3b-1caf-5c61-98a4343bf249" uuidref="c2019e4f3a3b1caf5c6198a4343bf249"/>
+            <srv:operatesOn xlink:href="https://registry.gdi-de.org/id/bkg/DENWAT01"/>
         </srv:SV_ServiceIdentification>
     </gmd:identificationInfo>
     <gmd:distributionInfo>

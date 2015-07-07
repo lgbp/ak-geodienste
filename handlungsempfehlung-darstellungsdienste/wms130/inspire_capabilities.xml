@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<WMS_Capabilities version="1.3.0" xmlns="http://www.opengis.net/wms" xmlns:sld="http://www.opengis.net/sld" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ms="http://mapserver.gis.umn.edu/mapserver" xmlns:inspire_common="http://inspire.ec.europa.eu/schemas/common/1.0" xmlns:inspire_vs="http://inspire.ec.europa.eu/schemas/inspire_vs/1.0" xsi:schemaLocation="http://www.opengis.net/wms http://schemas.opengis.net/wms/1.3.0/capabilities_1_3_0.xsd  http://www.opengis.net/sld http://schemas.opengis.net/sld/1.1.0/sld_capabilities.xsd  http://inspire.ec.europa.eu/schemas/inspire_vs/1.0  http://inspire.ec.europa.eu/schemas/inspire_vs/1.0/inspire_vs.xsd http://mapserver.gis.umn.edu/mapserver http://inspire.brandenburg.de/services/natraum_wms?language=ger&amp;service=WMS&amp;version=1.3.0&amp;request=GetSchemaExtension">
+
+<!-- MapServer version 6.4.1 OUTPUT=GIF OUTPUT=PNG OUTPUT=JPEG OUTPUT=KML SUPPORTS=PROJ SUPPORTS=GD SUPPORTS=AGG SUPPORTS=FREETYPE SUPPORTS=CAIRO SUPPORTS=SVG_SYMBOLS SUPPORTS=RSVG SUPPORTS=ICONV SUPPORTS=FRIBIDI SUPPORTS=WMS_SERVER SUPPORTS=WMS_CLIENT SUPPORTS=WFS_SERVER SUPPORTS=WFS_CLIENT SUPPORTS=WCS_SERVER SUPPORTS=SOS_SERVER SUPPORTS=FASTCGI SUPPORTS=THREADS SUPPORTS=GEOS INPUT=JPEG INPUT=POSTGIS INPUT=OGR INPUT=GDAL INPUT=SHAPEFILE -->
+
+<Service>
+  <Name>WMS</Name>
+  <Title>Naturraumgliederung in Brandenburg – INSPIRE View-Service (WMS-LUGV-NATRAUM)</Title>
+  <Abstract>Der Dienst zur Naturraumgliederung Brandenburgs setzt sich zusammen aus der Naturräumlichen Gliederung nach Scholz (1962) und den Naturrräumlichen Regionen des Landschaftsprogramms. Die Naturraumgliederung Brandenburgs nach Scholz beinhalt Geometrie und textliche Bezeichnung von 76 Naturraumuntereinheiten hinsichtlich Geologie, Klima, Relief, Boden, Hydrologie, Gewässer, Flächennutzung und natürliche Vegetation. Diese Naturräumliche Gliederung wird primär für Aufgaben im Naturschutz eingesetzt. Die Naturräumlichen Regionen des Landschaftsprogramms Brandenburg wurden auf Grundlage der Veröffentlichung 'Die naturräumliche Gliederung Brandenburgs' (Eberhard Scholz 1962) erstellt. Hierfür wurden die räumlichen Grenzen an den Maßstab des Landschaftsprogramms angepasst und die Bezeichnungen der Naturräume teilweise verändert.</Abstract>
+  <KeywordList>
+      <Keyword>WMS</Keyword>
+      <Keyword>infoMapAccessService</Keyword>
+      <Keyword>inspireidentifiziert</Keyword>
+      <Keyword>Natur</Keyword>
+      <Keyword>Landschaft</Keyword>
+      <Keyword>Landschaftsplanung</Keyword>
+      <Keyword>Landschaftsprogramm</Keyword>
+      <Keyword>Naturraum</Keyword>
+      <Keyword>Naturraumgliederung</Keyword>
+      <Keyword>Gliederung</Keyword>
+      <Keyword>Naturraumstruktur</Keyword>
+  </KeywordList>
+  <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://inspire.brandenburg.de/services/natraum_wms?language=ger&amp;"/>
+  <ContactInformation>
+    <ContactPersonPrimary>
+      <ContactPerson>INSPIRE-Zentrale im Land Brandenburg</ContactPerson>
+      <ContactOrganization>Landesvermessung und Geobasisinformation Brandenburg (LGB)</ContactOrganization>
+    </ContactPersonPrimary>
+      <ContactPosition>Kundenservice</ContactPosition>
+    <ContactAddress>
+        <AddressType>Strasse und Hausnummer</AddressType>
+        <Address>Heinrich-Mann-Allee 103</Address>
+        <City>Potsdam</City>
+        <StateOrProvince>Brandenburg</StateOrProvince>
+        <PostCode>14473</PostCode>
+        <Country>Deutschland</Country>
+    </ContactAddress>
+      <ContactVoiceTelephone>+49-331-8844-123</ContactVoiceTelephone>
+      <ContactFacsimileTelephone>+49-331-8844-16123</ContactFacsimileTelephone>
+  <ContactElectronicMailAddress>kundenservice@inspire.brandenburg.de</ContactElectronicMailAddress>
+  </ContactInformation>
+  <Fees>Nutzungsbedingungen: Nutzung erfolgt derzeit kostenfrei unter Beachtung des Urheberrechts.</Fees>
+  <AccessConstraints>Es gelten die Bedingungen der Datenlizenz Deutschland – Namensnennung – Version 2.0: https://www.govdata.de/dl-de/by-2-0. Als Bezeichnung des Bereitstellers ist '© Landesamt für Umwelt, Gesundheit und Verbraucherschutz Brandenburg' anzugeben</AccessConstraints>
+  <MaxWidth>8000</MaxWidth>
+  <MaxHeight>8000</MaxHeight>
+</Service>
+
+<Capability>
+  <Request>
+    <GetCapabilities>
+      <Format>text/xml</Format>
+      <DCPType>
+        <HTTP>
+          <Get><OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://inspire.brandenburg.de/services/natraum_wms?language=ger&amp;"/></Get>
+          <Post><OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://inspire.brandenburg.de/services/natraum_wms?language=ger&amp;"/></Post>
+        </HTTP>
+      </DCPType>
+    </GetCapabilities>
+    <GetMap>
+      <Format>image/png</Format>
+      <Format>image/jpeg</Format>
+      <Format>image/gif</Format>
+      <Format>image/tiff</Format>
+      <DCPType>
+        <HTTP>
+          <Get><OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://inspire.brandenburg.de/services/natraum_wms?language=ger&amp;"/></Get>
+          <Post><OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://inspire.brandenburg.de/services/natraum_wms?language=ger&amp;"/></Post>
+        </HTTP>
+      </DCPType>
+    </GetMap>
+    <GetFeatureInfo>
+      <Format>text/html</Format>
+      <Format>application/vnd.ogc.gml</Format>
+      <Format>text/plain</Format>
+      <DCPType>
+        <HTTP>
+          <Get><OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://inspire.brandenburg.de/services/natraum_wms?language=ger&amp;"/></Get>
+          <Post><OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://inspire.brandenburg.de/services/natraum_wms?language=ger&amp;"/></Post>
+        </HTTP>
+      </DCPType>
+    </GetFeatureInfo>
+    <sld:DescribeLayer>
+      <Format>text/xml</Format>
+      <DCPType>
+        <HTTP>
+          <Get><OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://inspire.brandenburg.de/services/natraum_wms?language=ger&amp;"/></Get>
+          <Post><OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://inspire.brandenburg.de/services/natraum_wms?language=ger&amp;"/></Post>
+        </HTTP>
+      </DCPType>
+    </sld:DescribeLayer>
+    <sld:GetLegendGraphic>
+      <Format>image/png</Format>
+      <Format>image/jpeg</Format>
+      <Format>image/gif</Format>
+      <Format>image/png; mode=8bit</Format>
+      <DCPType>
+        <HTTP>
+          <Get><OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://inspire.brandenburg.de/services/natraum_wms?language=ger&amp;"/></Get>
+          <Post><OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://inspire.brandenburg.de/services/natraum_wms?language=ger&amp;"/></Post>
+        </HTTP>
+      </DCPType>
+    </sld:GetLegendGraphic>
+  </Request>
+  <Exception>
+    <Format>XML</Format>
+    <Format>INIMAGE</Format>
+    <Format>BLANK</Format>
+  </Exception>
+  <sld:UserDefinedSymbolization SupportSLD="1" UserLayer="0" UserStyle="1" RemoteWFS="0" InlineFeature="0" RemoteWCS="0"/>
+  <inspire_vs:ExtendedCapabilities>
+    <inspire_common:MetadataUrl xsi:type="inspire_common:resourceLocatorType">
+      <inspire_common:URL>http://www.metaver.de/csw202?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;id=600E5A4B-E44E-405C-93B3-BB1EAC17F650</inspire_common:URL>
+      <inspire_common:MediaType>application/vnd.ogc.csw.GetRecordByIdResponse_xml</inspire_common:MediaType>
+    </inspire_common:MetadataUrl>
+    <inspire_common:SupportedLanguages>
+      <inspire_common:DefaultLanguage><inspire_common:Language>ger</inspire_common:Language></inspire_common:DefaultLanguage>
+    </inspire_common:SupportedLanguages>
+    <inspire_common:ResponseLanguage><inspire_common:Language>ger</inspire_common:Language></inspire_common:ResponseLanguage>
+  </inspire_vs:ExtendedCapabilities>
+  <Layer>
+    <Name>NATURRAUMGLIEDERUNG</Name>
+    <Title>Naturraumgliederung BB</Title>
+    <Abstract>Naturraumgliederung in Brandenburg</Abstract>
+    <KeywordList>
+        <Keyword>WMS</Keyword>
+        <Keyword>infoMapAccessService</Keyword>
+        <Keyword>inspireidentifiziert</Keyword>
+        <Keyword>Natur</Keyword>
+        <Keyword>Landschaft</Keyword>
+        <Keyword>Landschaftsplanung</Keyword>
+        <Keyword>Landschaftsprogramm</Keyword>
+        <Keyword>Naturraum</Keyword>
+        <Keyword>Naturraumgliederung</Keyword>
+        <Keyword>Gliederung</Keyword>
+        <Keyword>Naturraumstruktur</Keyword>
+    </KeywordList>
+    <CRS>EPSG:25833</CRS>
+    <CRS>EPSG:4326</CRS>
+    <CRS>EPSG:25832</CRS>
+    <CRS>EPSG:3034</CRS>
+    <CRS>EPSG:3035</CRS>
+    <CRS>EPSG:3044</CRS>
+    <CRS>EPSG:3045</CRS>
+    <CRS>EPSG:4258</CRS>
+    <CRS>EPSG:3857</CRS>
+    <CRS>EPSG:4839</CRS>
+    <EX_GeographicBoundingBox>
+        <westBoundLongitude>10.8978</westBoundLongitude>
+        <eastBoundLongitude>14.9049</eastBoundLongitude>
+        <southBoundLatitude>51.3</southBoundLatitude>
+        <northBoundLatitude>53.6</northBoundLatitude>
+    </EX_GeographicBoundingBox>
+    <BoundingBox CRS="EPSG:25833" minx="228152" miny="5.69041e+06" maxx="493382" maxy="5.93902e+06"/>
+    <BoundingBox CRS="EPSG:4326" minx="51.3" miny="10.8978" maxx="53.6" maxy="14.9049"/>
+    <BoundingBox CRS="EPSG:25832" minx="625795" miny="5.68528e+06" maxx="910928" maxy="5.95521e+06"/>
+    <BoundingBox CRS="EPSG:3034" minx="2.72534e+06" miny="4.05756e+06" maxx="2.98243e+06" maxy="4.32964e+06"/>
+    <BoundingBox CRS="EPSG:3035" minx="3.13269e+06" miny="4.38054e+06" maxx="3.399e+06" maxy="4.66231e+06"/>
+    <BoundingBox CRS="EPSG:3044" minx="5.68528e+06" miny="625795" maxx="5.95521e+06" maxy="910928"/>
+    <BoundingBox CRS="EPSG:3045" minx="5.69041e+06" miny="228152" maxx="5.93902e+06" maxy="493382"/>
+    <BoundingBox CRS="EPSG:4258" minx="51.3" miny="10.8978" maxx="53.6" maxy="14.9049"/>
+    <BoundingBox CRS="EPSG:3857" minx="1.21314e+06" miny="6.67453e+06" maxx="1.65921e+06" maxy="7.09476e+06"/>
+    <BoundingBox CRS="EPSG:4839" minx="33513.8" miny="26379.6" maxx="297827" maxy="306311"/>
+    <AuthorityURL name="lugv-brandenburg">
+      <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://registry.gdi-de/id/gdi-bb/"/>
+    </AuthorityURL>
+    <Style>
+       <Name>inspire</Name>
+       <Title>Naturraumgliederung</Title>
+       <LegendURL width="335" height="256">
+          <Format>image/png</Format>
+          <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://inspire.brandenburg.de/services/natraum_wms?language=ger&amp;version=1.3.0&amp;service=WMS&amp;request=GetLegendGraphic&amp;sld_version=1.1.0&amp;layer=NATURRAUMGLIEDERUNG&amp;format=image/png&amp;STYLE=inspire"/>
+       </LegendURL>
+    </Style>
+    <Layer queryable="1" opaque="0" cascaded="0">
+        <Name>natraum_scholz</Name>
+        <Title>Naturräumliche Gliederung (nach Scholz, 1962)</Title>
+        <Abstract>Naturraumgliederung Brandenburgs auf der Grundlage von: Eberhard Scholz: Die naturräumliche Gliederung Brandenburgs. Pädagogisches Bezirkskabinett, Potsdam 1962, 71 Seiten, empfohlener Einsatzmaßstab ist ab 1:10.000</Abstract>
+        <CRS>EPSG:25833</CRS>
+        <CRS>EPSG:4326</CRS>
+        <CRS>EPSG:25832</CRS>
+        <CRS>EPSG:3034</CRS>
+        <CRS>EPSG:3035</CRS>
+        <CRS>EPSG:3044</CRS>
+        <CRS>EPSG:3045</CRS>
+        <CRS>EPSG:4258</CRS>
+        <CRS>EPSG:3857</CRS>
+        <CRS>EPSG:4839</CRS>
+        <EX_GeographicBoundingBox>
+            <westBoundLongitude>10.8978</westBoundLongitude>
+            <eastBoundLongitude>14.9049</eastBoundLongitude>
+            <southBoundLatitude>51.3</southBoundLatitude>
+            <northBoundLatitude>53.6</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:25833" minx="228152" miny="5.69041e+06" maxx="493382" maxy="5.93902e+06"/>
+        <BoundingBox CRS="EPSG:4326" minx="51.3" miny="10.8978" maxx="53.6" maxy="14.9049"/>
+        <BoundingBox CRS="EPSG:25832" minx="625795" miny="5.68528e+06" maxx="910928" maxy="5.95521e+06"/>
+        <BoundingBox CRS="EPSG:3034" minx="2.72534e+06" miny="4.05756e+06" maxx="2.98243e+06" maxy="4.32964e+06"/>
+        <BoundingBox CRS="EPSG:3035" minx="3.13269e+06" miny="4.38054e+06" maxx="3.399e+06" maxy="4.66231e+06"/>
+        <BoundingBox CRS="EPSG:3044" minx="5.68528e+06" miny="625795" maxx="5.95521e+06" maxy="910928"/>
+        <BoundingBox CRS="EPSG:3045" minx="5.69041e+06" miny="228152" maxx="5.93902e+06" maxy="493382"/>
+        <BoundingBox CRS="EPSG:4258" minx="51.3" miny="10.8978" maxx="53.6" maxy="14.9049"/>
+        <BoundingBox CRS="EPSG:3857" minx="1.21314e+06" miny="6.67453e+06" maxx="1.65921e+06" maxy="7.09476e+06"/>
+        <BoundingBox CRS="EPSG:4839" minx="33513.8" miny="26379.6" maxx="297827" maxy="306311"/>
+        <Identifier authority="lugv-brandenburg">6dadfbe7-e49b-46f5-954f-9561a3de109b</Identifier>
+        <MetadataURL type="TC211">
+          <Format>application/vnd.ogc.csw.GetRecordByIdResponse_xml</Format>
+          <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://www.metaver.de/csw202?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;id=E56B3332-5572-47BA-9D8D-386FE0F999D1"/>
+        </MetadataURL>
+        <Style>
+          <Name>default</Name>
+          <Title>default</Title>
+          <LegendURL width="302" height="240">
+             <Format>image/png</Format>
+             <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://inspire.brandenburg.de/services/natraum_wms?language=ger&amp;version=1.3.0&amp;service=WMS&amp;request=GetLegendGraphic&amp;sld_version=1.1.0&amp;layer=natraum_scholz&amp;format=image/png&amp;STYLE=default"/>
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>10000</MinScaleDenominator>
+        <MaxScaleDenominator>1e+07</MaxScaleDenominator>
+    </Layer>
+    <Layer queryable="1" opaque="0" cascaded="0">
+        <Name>natraum_lapro</Name>
+        <Title>Naturräumliche Regionen des Landschaftsprogramms</Title>
+        <Abstract>Naturräumliche Regionen des Landschaftsprogramms u.a. auf der Grundlage der 'Naturräumlichen Gliederung Brandenburgs (nach Scholz, 1962)', zur Verwendung im Rahmen des Landschaftsprogramms</Abstract>
+        <CRS>EPSG:25833</CRS>
+        <CRS>EPSG:4326</CRS>
+        <CRS>EPSG:25832</CRS>
+        <CRS>EPSG:3034</CRS>
+        <CRS>EPSG:3035</CRS>
+        <CRS>EPSG:3044</CRS>
+        <CRS>EPSG:3045</CRS>
+        <CRS>EPSG:4258</CRS>
+        <CRS>EPSG:3857</CRS>
+        <CRS>EPSG:4839</CRS>
+        <EX_GeographicBoundingBox>
+            <westBoundLongitude>10.8978</westBoundLongitude>
+            <eastBoundLongitude>14.9049</eastBoundLongitude>
+            <southBoundLatitude>51.3</southBoundLatitude>
+            <northBoundLatitude>53.6</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:25833" minx="228152" miny="5.69041e+06" maxx="493382" maxy="5.93902e+06"/>
+        <BoundingBox CRS="EPSG:4326" minx="51.3" miny="10.8978" maxx="53.6" maxy="14.9049"/>
+        <BoundingBox CRS="EPSG:25832" minx="625795" miny="5.68528e+06" maxx="910928" maxy="5.95521e+06"/>
+        <BoundingBox CRS="EPSG:3034" minx="2.72534e+06" miny="4.05756e+06" maxx="2.98243e+06" maxy="4.32964e+06"/>
+        <BoundingBox CRS="EPSG:3035" minx="3.13269e+06" miny="4.38054e+06" maxx="3.399e+06" maxy="4.66231e+06"/>
+        <BoundingBox CRS="EPSG:3044" minx="5.68528e+06" miny="625795" maxx="5.95521e+06" maxy="910928"/>
+        <BoundingBox CRS="EPSG:3045" minx="5.69041e+06" miny="228152" maxx="5.93902e+06" maxy="493382"/>
+        <BoundingBox CRS="EPSG:4258" minx="51.3" miny="10.8978" maxx="53.6" maxy="14.9049"/>
+        <BoundingBox CRS="EPSG:3857" minx="1.21314e+06" miny="6.67453e+06" maxx="1.65921e+06" maxy="7.09476e+06"/>
+        <BoundingBox CRS="EPSG:4839" minx="33513.8" miny="26379.6" maxx="297827" maxy="306311"/>
+        <Identifier authority="lugv-brandenburg">e4f0c592-1de0-4715-a013-7b9a327e43ce</Identifier>
+        <MetadataURL type="TC211">
+          <Format>application/vnd.ogc.csw.GetRecordByIdResponse_xml</Format>
+          <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://www.metaver.de/csw202?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;id=FA720C64-F9A2-49F9-BD80-AB7E76D4324E"/>
+        </MetadataURL>
+        <Style>
+          <Name>default</Name>
+          <Title>default</Title>
+          <LegendURL width="335" height="21">
+             <Format>image/png</Format>
+             <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://inspire.brandenburg.de/services/natraum_wms?language=ger&amp;version=1.3.0&amp;service=WMS&amp;request=GetLegendGraphic&amp;sld_version=1.1.0&amp;layer=natraum_lapro&amp;format=image/png&amp;STYLE=default"/>
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>10000</MinScaleDenominator>
+        <MaxScaleDenominator>1e+07</MaxScaleDenominator>
+    </Layer>
+  </Layer>
+</Capability>
+</WMS_Capabilities>
