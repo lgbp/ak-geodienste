@@ -29,7 +29,7 @@ for dirpath, dirnames, files in os.walk(basedir):
             for testklasse in testklassen:
 
                 # Starte Tests
-                credentials = {'userName': 'wei_github', 'pass': u'testtest'}}
+                credentials = {'userName': 'wei_github', 'pass': u'testtest'}
 
                 proxies = {}
                 client = SudsClient('http://testsuite.gdi-de.org/gdi/download?id=wsdl', proxy=proxies)
