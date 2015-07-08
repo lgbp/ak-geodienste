@@ -1,4 +1,12 @@
 # -*- coding: UTF-8 -*-
+__author__ = 'Jürgen Weichand'
+__version__ = '1.0.0'
+
+'''
+Python-Skript für automatisierte Tests über die GDI-DE Testsuite API
+Basiert auf: https://wiki.gdi-de.org/download/attachments/78577688/2015-03-02_sven_boehme_testsuite_api_minimal_beispiel.py
+'''
+
 from suds.client import Client as SudsClient
 import time
 import os
