@@ -9,7 +9,8 @@
             <ows:Keyword>WFS 2.0</ows:Keyword>
             <ows:Keyword>Downloadservice</ows:Keyword>
             <ows:Keyword>Downloaddienst</ows:Keyword>
-            <ows:Keyword>INSPIRE</ows:Keyword>
+            <ows:Keyword>inspireidentifiziert</ows:Keyword>
+            <ows:Keyword>infoFeatureAccessService</ows:Keyword>
             <ows:Keyword>beMasterGIS</ows:Keyword>
         </ows:Keywords>
         <!-- GEMET Schlüsselwort -->
@@ -19,8 +20,8 @@
         </ows:Keywords>
         <ows:ServiceType>WFS</ows:ServiceType>
         <ows:ServiceTypeVersion>2.0.0</ows:ServiceTypeVersion>
-        <ows:Fees>Nutzungseinschränkungen: Es gelten keine Einschränkungen</ows:Fees>
-        <ows:AccessConstraints>no constraints</ows:AccessConstraints>
+        <ows:Fees>Nutzungsbedingungen: Der Datensatz/Dienst steht unter der folgender Lizenz: Creative Commons Namensnennung (CC BY). Die Namensnennung hat in folgender Weise zu erfolgen: "Datenquelle: Bayerische Vermessungsverwaltung – www.geodaten.bayern.de</ows:Fees>
+        <ows:AccessConstraints>copyright</ows:AccessConstraints>
     </ows:ServiceIdentification>
     <ows:ServiceProvider>
         <ows:ProviderName>Jürgen Weichand | geoinformatik blog</ows:ProviderName>
