@@ -8,6 +8,8 @@ import os
 
 basedir = '../'
 
+has_exception = False
+
 for dirpath, dirnames, files in os.walk(basedir):
     for name in files:
 
@@ -43,14 +45,15 @@ for dirpath, dirnames, files in os.walk(basedir):
 
                     # Validierung der XML-Datei gegen das temporäre Schema
                     try:
-                        print 'Validiere ' + xmlfilename + ' gegen: \n' + etree.tostring(xsddoc,pretty_print=True)
+                        print 'Prüfe Validität ' + xmlfilename + ' gegen:'
+                        print etree.tostring(xsddoc,pretty_print=True)
                         xsd = etree.XMLSchema(etree.XML(etree.tostring(xsddoc)))
                         xsd.assertValid(xmldoc)
+                        print 'Okay!\n'
                     except etree.DocumentInvalid as e:
+                        has_exception = True
                         print(e)
-                        exit(1)
+                        print '\n'
 
-
-
-print 'Alle XML-Dateien sind valide!'
-exit(0)
+if has_exception:
+    exit(1)

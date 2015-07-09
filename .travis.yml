@@ -17,3 +17,4 @@ script:
     - python python/test-xml-wellformed.py
     - python python/test-xml-validate.py
     - python python/test-testsuite.py
+    - python python/test-inspirevalidator.py

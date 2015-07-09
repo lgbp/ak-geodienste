@@ -16,8 +16,7 @@ import requests
 basedir = '../ak-geodienste/'
 baseurl = 'https://raw.githubusercontent.com/JuergenWeichand/ak-geodienste/master/'
 
-testmapping = {}
-has_failure = False
+has_exception = False
 
 for dirpath, dirnames, files in os.walk(basedir):
     for name in files:
@@ -49,8 +48,8 @@ for dirpath, dirnames, files in os.walk(basedir):
                 parameter_get_test_class = {'testClassID': testklasse}
                 parameter_get_test_class.update(credentials)
                 testclass = client.service.getTestClass(**parameter_get_test_class)
-                print '[Testklasse ' + testclass.Name + ']\n' + url
-
+                print '[Überprüfe mit GDI-DE Testsuite - Testklasse ' + testclass.Name + ']'
+                print url
 
                 # setTestConfiguration
                 parameter_set_test_configuration = {'name': name,
@@ -92,11 +91,11 @@ for dirpath, dirnames, files in os.walk(basedir):
                     for l, singleTest in enumerate(item.singleTests):
 
                         if singleTest.result == 'FAIL':
-                            has_failure = True
+                            has_exception = True
                             if hasattr(singleTest, 'messages'):
                                 print(singleTest.messages)
 
-                if not has_failure:
+                if not has_exception:
                     print('Okay!\n')
                 else:
                     print('\n')
@@ -107,5 +106,5 @@ for dirpath, dirnames, files in os.walk(basedir):
                 client.service.deleteTestConfiguration(**parameter_delete_test_configuration)
 
 
-if has_failure:
+if has_exception:
     exit (1)
