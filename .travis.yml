@@ -1,0 +1,19 @@
+language: bash
+
+before_install:
+    - sudo apt-get update
+    
+install:
+    - sudo apt-get install libxml2-dev libxslt-dev python-dev
+    - sudo apt-get install python-pip 
+    - sudo apt-get install libffi-dev libssl-dev
+    - sudo pip install --upgrade pip
+    - sudo pip install lxml
+    - sudo pip install requests
+    - sudo pip install requests[security]
+    - sudo pip install suds-jurko
+
+script:
+    - python python/test-xml-wellformed.py
+    - python python/test-xml-validate.py
+    - python python/test-testsuite.py
