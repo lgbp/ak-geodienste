@@ -17,13 +17,15 @@ Alle XML-Dateien im Repositorium müssen **wohlgeformt** sein.  Die Überprüfun
 Alle XML-Dateien im Repositorium müssen **valide** sein. Die Validierung erfolgt gegen die unter `schemaLocation` eingetragenen Schemata. Die Überprüfung erfolgt über das Testskript `python/test-xml-validate.py`.
 
 ### 3. GDI-DE Testsuite
-Alle im Repositorium vorhandenen ISO19139-**Metadaten** werden automatisch mit der Testsuite der GDI-DE [3] überprüft. Die Überprüfung erfolgt über das Testskript `python/test-testsuite.py`.
+Alle im Repositorium vorhandenen ISO19139-**Metadaten** werden automatisch mit der `Testsuite der GDI-DE` [3] überprüft. Die Überprüfung erfolgt über das Testskript `python/test-testsuite.py`.
 Hierbei sind folgende Testklassen zu absolvieren:
 
 * Metadaten | Metadata: ISO and GDI-DE
 * Metadaten | Metadata: INSPIRE
 
-Nur `Fehler` führen zu einem fehlerhaften Build-Prozess.
+### 4. INSPIRE Geoportal Metadata Validator [Nur informativ!]
+Alle im Repositorium vorhandenen ISO19139-**Metadaten** werden automatisch mit dem `INSPIRE Geoportal Metadata Validator` [4] überprüft. Die Überprüfung erfolgt über das Testskript `python/test-inspirevalidator.py`.
+`Fehler` führen zu **KEINEM** fehlerhaften Build-Prozess.
 
 ## Links
 
@@ -32,3 +34,5 @@ Nur `Fehler` führen zu einem fehlerhaften Build-Prozess.
 [2] http://www.geoportal.de/SharedDocs/Downloads/DE/GDI-DE/Handlungsempfehlungen_Inspire_Downloadservices1_1.pdf
 
 [3] http://testsuite.gdi-de.org/gdi/
+
+[4] http://inspire-geoportal.ec.europa.eu/validator2/

@@ -28,8 +28,7 @@ for dirpath, dirnames, files in os.walk(basedir):
             # Überprüfung Metadaten mit dem InspireValidator
             if 'MD_Metadata' in response.text:
 
-                print '[Überprüfe mit InspireValidator]'
-                print url
+                print 'Prüfe mit InspireValidator ' + url
                 response = requests.post(inspire_validator_url, timeout=240, headers={"Accept":"application/xml"}, files=dict(resourceRepresentation=url))
                 xmlstring = response.text.replace('<?xml version="1.0" encoding="UTF-8" standalone="yes"?>', '') #Hack
                 xmldoc = etree.XML(xmlstring)
