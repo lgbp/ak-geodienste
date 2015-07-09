@@ -1494,8 +1494,8 @@
                     </srv:connectPoint>
                 </srv:SV_OperationMetadata>
             </srv:containsOperations>
-            <srv:operatesOn xmlns:xlink="http://www.w3.org/1999/xlink" uuidref="FA720C64-F9A2-49F9-BD80-AB7E76D4324E" xlink:href="https://registry.gdi-de.org/id/gdi-bb-lugv/4f0c592-1de0-4715-a013-7b9a327e43ce"/>
-            <srv:operatesOn xmlns:xlink="http://www.w3.org/1999/xlink" uuidref="E56B3332-5572-47BA-9D8D-386FE0F999D1" xlink:href="https://registry.gdi-de.org/id/gdi-bb-lugv/6dadfbe7-e49b-46f5-954f-9561a3de109b"/>
+            <srv:operatesOn xmlns:xlink="http://www.w3.org/1999/xlink" uuidref="FA720C64-F9A2-49F9-BD80-AB7E76D4324E" xlink:href="https://registry.gdi-de.org/id/de.bb.lugv/4f0c592-1de0-4715-a013-7b9a327e43ce"/>
+            <srv:operatesOn xmlns:xlink="http://www.w3.org/1999/xlink" uuidref="E56B3332-5572-47BA-9D8D-386FE0F999D1" xlink:href="https://registry.gdi-de.org/id/de.bb.lugv/6dadfbe7-e49b-46f5-954f-9561a3de109b"/>
         </srv:SV_ServiceIdentification>
     </gmd:identificationInfo>
     <gmd:distributionInfo>
