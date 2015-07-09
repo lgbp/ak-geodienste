@@ -482,7 +482,7 @@
             <gmd:resourceConstraints>
                 <gmd:MD_Constraints>
                     <gmd:useLimitation>
-                        <gco:CharacterString>Nutzung erfolgt derzeit kostenfrei unter Beachtung des Urheberrechts.</gco:CharacterString>
+                        <gco:CharacterString>Nutzungsbedingungen: Nutzung erfolgt derzeit kostenfrei unter Beachtung des Urheberrechts.</gco:CharacterString>
                     </gmd:useLimitation>
                 </gmd:MD_Constraints>
             </gmd:resourceConstraints>
