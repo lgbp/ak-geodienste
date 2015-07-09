@@ -19,8 +19,13 @@
         <inspire_dls:spatial_dataset_identifier_code>3e56db13eabdeb36102e988950321375</inspire_dls:spatial_dataset_identifier_code>
         <inspire_dls:spatial_dataset_identifier_namespace>http://sgdnord.rlp.de</inspire_dls:spatial_dataset_identifier_namespace>
         <link href="http://www.geoportal.rlp.de/mapbender/php/mod_dataISOMetadata.php?outputFormat=iso19139&amp;id=3e56db13-eabd-eb36-102e-988950321375" rel="describedby" type="application/xml"/>
-        <link rel="alternate" href="http://www.geoportal.rlp.de/mapbender/php/mod_inspireDownloadFeed.php?id=3e56db13-eabd-eb36-102e-988950321375&amp;type=DATASET&amp;generateFrom=wfs&amp;wfsid=300" type="application/atom+xml" hreflang="de" title="Feed für den pre-defined Datensatz Windenergieanlagen in RLP"/>
-        <id>http://www.geoportal.rlp.de/mapbender/php/mod_inspireDownloadFeed.php?id=3e56db13-eabd-eb36-102e-988950321375&amp;type=DATASET&amp;generateFrom=wfs&amp;wfsid=300</id>
+        <!--
+            <link rel="alternate" href="http://www.geoportal.rlp.de/mapbender/php/mod_inspireDownloadFeed.php?id=3e56db13-eabd-eb36-102e-988950321375&amp;type=DATASET&amp;generateFrom=wfs&amp;wfsid=300" type="application/atom+xml" hreflang="de" title="Feed für den pre-defined Datensatz Windenergieanlagen in RLP"/>
+            <id>http://www.geoportal.rlp.de/mapbender/php/mod_inspireDownloadFeed.php?id=3e56db13-eabd-eb36-102e-988950321375&amp;type=DATASET&amp;generateFrom=wfs&amp;wfsid=300</id>
+        -->
+        https://github.com/JuergenWeichand/ak-geodienste/blob/master/handlungsempfehlung-downloaddienste/atom/inspire-dataset-feed.xml
+            <link rel="alternate" href="http://www.geoportal.rlp.de/mapbender/php/mod_inspireDownloadFeed.php?id=3e56db13-eabd-eb36-102e-988950321375&amp;type=DATASET&amp;generateFrom=wfs&amp;wfsid=300" type="application/atom+xml" hreflang="de" title="Feed für den pre-defined Datensatz Windenergieanlagen in RLP"/>
+            <id>http://www.geoportal.rlp.de/mapbender/php/mod_inspireDownloadFeed.php?id=3e56db13-eabd-eb36-102e-988950321375&amp;type=DATASET&amp;generateFrom=wfs&amp;wfsid=300</id>
         <rights>none</rights>
         <updated>2015-07-09T08:44:19+02:00</updated>
         <summary>Nähere Beschreibung des Feedinhaltes: Windenergieanlagen beantragt, genehmigt oder bereits am Netz befindlich in RLP</summary>
