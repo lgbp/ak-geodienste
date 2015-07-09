@@ -24,8 +24,8 @@
             <ContactFacsimileTelephone>+49(0)261-120882114</ContactFacsimileTelephone>
             <ContactElectronicMailAddress>frank.lemke@sgdnord.rlp.de</ContactElectronicMailAddress>
         </ContactInformation>
-        <Fees>Nutzungseinschränkungen: Es gelten keine Einschränkungen.</Fees>
-        <AccessConstraints>no constraints</AccessConstraints>
+        <Fees>Nutzungseinschränkungen: Es gelten keine Einschränkungen | Nutzungsbedingungen: Es gelten keine Bedingungen</Fees>
+        <AccessConstraints>Es gelten keine Bedingungen</AccessConstraints>
     </Service>
     <Capability>
         <Request>
