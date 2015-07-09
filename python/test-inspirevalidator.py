@@ -37,7 +37,7 @@ for dirpath, dirnames, files in os.walk(basedir):
                     has_exception = True
                     print exception.text
                 # print etree.tostring(xmldoc, pretty_print=True)
-                if len(exception) == 0:
+                if len(exceptions) == 0:
                     print 'Okay!\n'
                 else:
                     print '\n'

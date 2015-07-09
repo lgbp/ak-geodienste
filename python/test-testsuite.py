@@ -49,7 +49,9 @@ for dirpath, dirnames, files in os.walk(basedir):
                 parameter_get_test_class.update(credentials)
                 testclass = client.service.getTestClass(**parameter_get_test_class)
 
-                print 'Prüfe mit GDI-DE Testsuite [' + testclass.Name + '] ' + url
+
+
+                print 'Prüfe mit GDI-DE Testsuite {' + str(testclass.Name) + '} ' + url
 
                 # setTestConfiguration
                 parameter_set_test_configuration = {'name': name,
