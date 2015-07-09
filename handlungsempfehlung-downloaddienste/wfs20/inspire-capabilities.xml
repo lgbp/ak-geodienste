@@ -9,7 +9,8 @@
             <ows:Keyword>WFS 2.0</ows:Keyword>
             <ows:Keyword>Downloadservice</ows:Keyword>
             <ows:Keyword>Downloaddienst</ows:Keyword>
-            <ows:Keyword>INSPIRE</ows:Keyword>
+            <ows:Keyword>inspireidentifiziert</ows:Keyword>
+            <ows:Keyword>infoFeatureAccessService</ows:Keyword>
             <ows:Keyword>beMasterGIS</ows:Keyword>
         </ows:Keywords>
         <!-- GEMET Schlüsselwort -->
