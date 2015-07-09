@@ -32,8 +32,8 @@ for dirpath, dirnames, files in os.walk(basedir):
 
             if ('MD_Metadata' in response):
                 testklassen = [15, 16]
-            if ('service-feed' in xmlfilename.lower()): # Todo: better check
-                testklassen = [17]
+            #if ('service-feed' in xmlfilename.lower()): # Todo: better check
+                #testklassen = [17]
             #elif ('WMT_MS_Capabilities' in response):
                 #testklassen = [18, 20]
 
