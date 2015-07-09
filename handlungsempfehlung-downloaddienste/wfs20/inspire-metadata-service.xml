@@ -211,7 +211,7 @@
                     <identifier>
                         <MD_Identifier>
                             <code>
-                                <gco:CharacterString>http://geoportal.bayern.de/service/eea97fc0-b6bf-11e1-afa6-0800200c9a66</gco:CharacterString>
+                                <gco:CharacterString>https://registry.gdi-de.org/id/de.by/125cce16-7ae1-3cf0-96e2-05a4453f3cb1</gco:CharacterString>
                             </code>
                         </MD_Identifier>
                     </identifier>
@@ -347,10 +347,10 @@
                     <otherConstraints>
                         <gco:CharacterString>
                             {
-                                "id": "cc-by",
-                                "name": "Creative Commons Namensnennung (CC BY)",
-                                "quelle": "Datenquelle: Bayerische Vermessungsverwaltung – www.geodaten.bayern.de",
-                                "url": "http://creativecommons.org/licenses/by/3.0/deed.de"
+                            "id": "cc-by",
+                            "name": "Creative Commons Namensnennung (CC BY)",
+                            "quelle": "Datenquelle: Bayerische Vermessungsverwaltung – www.geodaten.bayern.de",
+                            "url": "http://creativecommons.org/licenses/by/3.0/deed.de"
                             }
                         </gco:CharacterString>
                     </otherConstraints>
