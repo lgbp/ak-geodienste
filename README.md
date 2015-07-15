@@ -4,7 +4,7 @@
 * Beispiele für Handlungsempfehlung Downloaddienste [2]
 
 
-[![Build Status](https://travis-ci.org/JuergenWeichand/ak-geodienste.svg)](https://travis-ci.org/JuergenWeichand/ak-geodienste)
+[![Build Status](https://travis-ci.org/gdi-de/ak-geodienste.svg)](https://travis-ci.org/JuergenWeichand/ak-geodienste)
 
 ## Automatisierte Tests
 
