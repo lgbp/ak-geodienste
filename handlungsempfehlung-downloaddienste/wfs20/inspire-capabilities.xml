@@ -9,7 +9,8 @@
             <ows:Keyword>WFS 2.0</ows:Keyword>
             <ows:Keyword>Downloadservice</ows:Keyword>
             <ows:Keyword>Downloaddienst</ows:Keyword>
-            <ows:Keyword>INSPIRE</ows:Keyword>
+            <ows:Keyword>inspireidentifiziert</ows:Keyword>
+            <ows:Keyword>infoFeatureAccessService</ows:Keyword>
             <ows:Keyword>beMasterGIS</ows:Keyword>
         </ows:Keywords>
         <!-- GEMET Schlüsselwort -->
@@ -19,8 +20,8 @@
         </ows:Keywords>
         <ows:ServiceType>WFS</ows:ServiceType>
         <ows:ServiceTypeVersion>2.0.0</ows:ServiceTypeVersion>
-        <ows:Fees>Nutzungseinschränkungen: Es gelten keine Einschränkungen</ows:Fees>
-        <ows:AccessConstraints>no constraints</ows:AccessConstraints>
+        <ows:Fees>Nutzungsbedingungen: Der Datensatz/Dienst steht unter der folgender Lizenz: Creative Commons Namensnennung (CC BY). Die Namensnennung hat in folgender Weise zu erfolgen: "Datenquelle: Bayerische Vermessungsverwaltung – www.geodaten.bayern.de</ows:Fees>
+        <ows:AccessConstraints>copyright</ows:AccessConstraints>
     </ows:ServiceIdentification>
     <ows:ServiceProvider>
         <ows:ProviderName>Jürgen Weichand | geoinformatik blog</ows:ProviderName>
@@ -244,8 +245,8 @@
                 </inspire_common:ResponseLanguage>
                 <!-- SpatialDatasetIdentifier -->
                 <inspire_dls:SpatialDataSetIdentifier>
-                    <inspire_common:Code>eea97fc0-b6bf-11e1-afa6-0800200c9a66</inspire_common:Code>
-                    <inspire_common:Namespace>https://registry.gdi-de.org/id/gdi-by/</inspire_common:Namespace>
+                    <inspire_common:Code>125cce16-7ae1-3cf0-96e2-05a4453f3cb1</inspire_common:Code>
+                    <inspire_common:Namespace>https://registry.gdi-de.org/id/de.by/</inspire_common:Namespace>
                 </inspire_dls:SpatialDataSetIdentifier>
             </inspire_dls:ExtendedCapabilities>
         </ows:ExtendedCapabilities>
@@ -267,7 +268,7 @@
                 <ows:LowerCorner>8.945107129404235 47.24846365993757</ows:LowerCorner>
                 <ows:UpperCorner>13.908920087139435 50.57959360191361</ows:UpperCorner>
             </ows:WGS84BoundingBox>
-            <MetadataURL xlink:href="http://geoportal.bayern.de/csw/bvv?REQUEST=GetRecordById&amp;VERSION=2.0.2&amp;service=CSW&amp;outputschema=csw:IsoRecord&amp;elementsetname=full&amp;ID=7cb975e9-1e1d-3d4b-b6ad-952ef09ec9e1" />
+            <MetadataURL xlink:href="http://geoportal.bayern.de/csw/bvv?REQUEST=GetRecordById&amp;VERSION=2.0.2&amp;service=CSW&amp;outputschema=csw:IsoRecord&amp;elementsetname=full&amp;ID=bf9ff4ed-62c7-4935-9318-d5251108acc3" />
         </FeatureType>
         <FeatureType>
             <Name>bvv:lkr_ex</Name>
@@ -284,7 +285,7 @@
                 <ows:LowerCorner>8.945107129404235 47.24846365993757</ows:LowerCorner>
                 <ows:UpperCorner>13.908920087139435 50.57959360191361</ows:UpperCorner>
             </ows:WGS84BoundingBox>
-            <MetadataURL xlink:href="http://geoportal.bayern.de/csw/bvv?REQUEST=GetRecordById&amp;VERSION=2.0.2&amp;service=CSW&amp;outputschema=csw:IsoRecord&amp;elementsetname=full&amp;ID=7cb975e9-1e1d-3d4b-b6ad-952ef09ec9e1" />
+            <MetadataURL xlink:href="http://geoportal.bayern.de/csw/bvv?REQUEST=GetRecordById&amp;VERSION=2.0.2&amp;service=CSW&amp;outputschema=csw:IsoRecord&amp;elementsetname=full&amp;ID=bf9ff4ed-62c7-4935-9318-d5251108acc3" />
         </FeatureType>
         <FeatureType>
             <Name>bvv:regbez_ex</Name>
@@ -301,7 +302,7 @@
                 <ows:LowerCorner>8.945107890491915 47.248466288051446</ows:LowerCorner>
                 <ows:UpperCorner>13.90891310401004 50.579591535273934</ows:UpperCorner>
             </ows:WGS84BoundingBox>
-            <MetadataURL xlink:href="http://geoportal.bayern.de/csw/bvv?REQUEST=GetRecordById&amp;VERSION=2.0.2&amp;service=CSW&amp;outputschema=csw:IsoRecord&amp;elementsetname=full&amp;ID=7cb975e9-1e1d-3d4b-b6ad-952ef09ec9e1" />
+            <MetadataURL xlink:href="http://geoportal.bayern.de/csw/bvv?REQUEST=GetRecordById&amp;VERSION=2.0.2&amp;service=CSW&amp;outputschema=csw:IsoRecord&amp;elementsetname=full&amp;ID=bf9ff4ed-62c7-4935-9318-d5251108acc3" />
         </FeatureType>
         <FeatureType>
             <Name>bvv:vg_ex</Name>
@@ -318,7 +319,7 @@
                 <ows:LowerCorner>9.089936462999892 47.372741910774145</ows:LowerCorner>
                 <ows:UpperCorner>13.765913535749272 50.57968695530451</ows:UpperCorner>
             </ows:WGS84BoundingBox>
-            <MetadataURL xlink:href="http://geoportal.bayern.de/csw/bvv?REQUEST=GetRecordById&amp;VERSION=2.0.2&amp;service=CSW&amp;outputschema=csw:IsoRecord&amp;elementsetname=full&amp;ID=7cb975e9-1e1d-3d4b-b6ad-952ef09ec9e1" />
+            <MetadataURL xlink:href="http://geoportal.bayern.de/csw/bvv?REQUEST=GetRecordById&amp;VERSION=2.0.2&amp;service=CSW&amp;outputschema=csw:IsoRecord&amp;elementsetname=full&amp;ID=bf9ff4ed-62c7-4935-9318-d5251108acc3" />
         </FeatureType>
         <FeatureType>
             <Name>bvv:bayern_ex</Name>
@@ -335,7 +336,7 @@
                 <ows:LowerCorner>8.945107890491915 47.248466288051446</ows:LowerCorner>
                 <ows:UpperCorner>13.90891310401004 50.579591535273934</ows:UpperCorner>
             </ows:WGS84BoundingBox>
-            <MetadataURL xlink:href="http://geoportal.bayern.de/csw/bvv?REQUEST=GetRecordById&amp;VERSION=2.0.2&amp;service=CSW&amp;outputschema=csw:IsoRecord&amp;elementsetname=full&amp;ID=7cb975e9-1e1d-3d4b-b6ad-952ef09ec9e1" />
+            <MetadataURL xlink:href="http://geoportal.bayern.de/csw/bvv?REQUEST=GetRecordById&amp;VERSION=2.0.2&amp;service=CSW&amp;outputschema=csw:IsoRecord&amp;elementsetname=full&amp;ID=bf9ff4ed-62c7-4935-9318-d5251108acc3" />
         </FeatureType>
     </FeatureTypeList>
     <fes:Filter_Capabilities>

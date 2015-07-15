@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:inspire_dls="http://inspire.ec.europa.eu/schemas/inspire_dls/1.0" xmlns:xsi="http://www.w3c.org/2001/XMLSchema-instance" xsi:schemaLocation="http://a9.com/-/spec/opensearch/1.1/ OpenSearch.xsd">
+    <ShortName>INSPIRE DLS</ShortName>
+    <Description>Search Description für INSPIRE Download Service.</Description>
+    <Url type="application/opensearchdescription+xml" rel="self" template="http://www.geoportal.rlp.de/mapbender/php/mod_inspireDownloadFeed.php?id=3e56db13-eabd-eb36-102e-988950321375&amp;type=SERVICE&amp;generateFrom=wfs&amp;wfsid=300&amp;layerid=&amp;getopensearch=true"/>
+    <Url type="application/atom+xml" rel="results" template="http://www.geoportal.rlp.de/mapbender/php/mod_inspireDownloadFeed.php?id=3e56db13-eabd-eb36-102e-988950321375&amp;type=DATASET&amp;generateFrom=wfs&amp;wfsid=300&amp;layerid=&amp;getopensearch=true&amp;OPENSEARCH=true&amp;q={searchTerms}"/>
+    <Url type="application/atom+xml" rel="describedby" template="http://www.geoportal.rlp.de/mapbender/php/mod_inspireDownloadFeed.php?id=3e56db13-eabd-eb36-102e-988950321375&amp;type=DATASET&amp;generateFrom=wfs&amp;wfsid=300&amp;layerid=&amp;getopensearch=true&amp;OPENSEARCH=true&amp;request=DescribeSpatialDataset&amp;spatial_dataset_identifier_code={inspire_dls:spatial_dataset_identifier_code?}&amp;spatial_dataset_identifier_namespace={inspire_dls:spatial_dataset_identifier_namespace?}&amp;crs={inspire_dls:crs?}&amp;language={language?}&amp;q={searchTerms?}"/>
+    <Url type="application/gml+xml" rel="results" template="http://www.geoportal.rlp.de/mapbender/php/mod_inspireDownloadFeed.php?id=3e56db13-eabd-eb36-102e-988950321375&amp;type=DATASET&amp;generateFrom=wfs&amp;wfsid=300&amp;layerid=&amp;getopensearch=true&amp;OPENSEARCH=true&amp;request=GetSpatialDataset&amp;spatial_dataset_identifier_code={inspire_dls:spatial_dataset_identifier_code?}&amp;spatial_dataset_identifier_namespace={inspire_dls:spatial_dataset_identifier_namespace?}&amp;crs={inspire_dls:crs?}&amp;language={language?}&amp;q={searchTerms?}"/>
+    <Url type="text/html" rel="results" template="http://www.geoportal.rlp.de/mapbender/php/mod_inspireDownloadFeed.php?id=3e56db13-eabd-eb36-102e-988950321375&amp;type=DATASET&amp;generateFrom=wfs&amp;wfsid=300&amp;layerid=&amp;getopensearch=true&amp;OPENSEARCH=true&amp;request=GetSpatialDataset&amp;spatial_dataset_identifier_code={inspire_dls:spatial_dataset_identifier_code?}&amp;spatial_dataset_identifier_namespace={inspire_dls:spatial_dataset_identifier_namespace?}&amp;crs={inspire_dls:crs?}&amp;language={language?}&amp;q={searchTerms?}"/>
+    <Contact>kontakt@geoportal.rlp.de</Contact>
+    <Tags>Tags</Tags>
+    <LongName>LongName</LongName>
+    <Image height="16" width="16" type="image/png">http://www.geoportal.rlp.de/fileadmin/design/logo_gdi-rp.png</Image>
+    <Query role="example" inspire_dls:spatial_dataset_identifier_namespace="http://sgdnord.rlp.de" inspire_dls:spatial_dataset_identifier_code="3e56db13eabdeb36102e988950321375" inspire_dls:crs="EPSG:0" language="de" title="Windenergieanlagen in RLP" count="1"/>
+    <Developer>Rheinland-Pfalz, Zentrale Stelle GDI-RP</Developer>
+    <Language>de</Language>
+</OpenSearchDescription>

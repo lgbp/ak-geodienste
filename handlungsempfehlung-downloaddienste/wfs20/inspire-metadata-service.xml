@@ -211,7 +211,7 @@
                     <identifier>
                         <MD_Identifier>
                             <code>
-                                <gco:CharacterString>http://geoportal.bayern.de/service/eea97fc0-b6bf-11e1-afa6-0800200c9a66</gco:CharacterString>
+                                <gco:CharacterString>https://registry.gdi-de.org/id/de.by/125cce16-7ae1-3cf0-96e2-05a4453f3cb1</gco:CharacterString>
                             </code>
                         </MD_Identifier>
                     </identifier>
@@ -309,7 +309,7 @@
                         <gco:CharacterString>Downloaddienst</gco:CharacterString>
                     </keyword>
                     <keyword>
-                        <gco:CharacterString>INSPIRE</gco:CharacterString>
+                        <gco:CharacterString>inspireidentifiziert</gco:CharacterString>
                     </keyword>
                     <keyword>
                         <gco:CharacterString>beMasterGIS</gco:CharacterString>
@@ -331,6 +331,10 @@
                     <useLimitation>
                         <gco:CharacterString>Nutzungsbedingungen: Der Datensatz/Dienst steht unter der folgender Lizenz: Creative Commons Namensnennung (CC BY). Die Namensnennung hat in folgender Weise zu erfolgen: "Datenquelle: Bayerische Vermessungsverwaltung – www.geodaten.bayern.de".</gco:CharacterString>
                     </useLimitation>
+                </MD_LegalConstraints>
+            </resourceConstraints>
+            <resourceConstraints>
+                <MD_LegalConstraints>
                     <useConstraints>
                         <MD_RestrictionCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_RestrictionCode" codeListValue="license">license</MD_RestrictionCode>
                     </useConstraints>
@@ -343,10 +347,10 @@
                     <otherConstraints>
                         <gco:CharacterString>
                             {
-                                "id": "cc-by",
-                                "name": "Creative Commons Namensnennung (CC BY)",
-                                "quelle": "Datenquelle: Bayerische Vermessungsverwaltung – www.geodaten.bayern.de",
-                                "url": "http://creativecommons.org/licenses/by/3.0/deed.de"
+                            "id": "cc-by",
+                            "name": "Creative Commons Namensnennung (CC BY)",
+                            "quelle": "Datenquelle: Bayerische Vermessungsverwaltung – www.geodaten.bayern.de",
+                            "url": "http://creativecommons.org/licenses/by/3.0/deed.de"
                             }
                         </gco:CharacterString>
                     </otherConstraints>
@@ -359,7 +363,6 @@
                     </classification>
                 </MD_SecurityConstraints>
             </resourceConstraints>
-            <!-- ######################################################################## -->
             <srv:serviceType>
                 <gco:LocalName>download</gco:LocalName>
             </srv:serviceType>
@@ -494,9 +497,12 @@
                     </srv:connectPoint>
                 </srv:SV_OperationMetadata>
             </srv:containsOperations>
-            <srv:operatesOn />
+            <srv:operatesOn uuidref="125cce16-7ae1-3cf0-96e2-05a4453f3cb1" xlink:href="https://registry.gdi-de.org/id/de.by/125cce16-7ae1-3cf0-96e2-05a4453f3cb1" xlink:title="bvv:gmd_ex"/>
+            <srv:operatesOn uuidref="125cce16-7ae1-3cf0-96e2-05a4453f3cb1" xlink:href="https://registry.gdi-de.org/id/de.by/125cce16-7ae1-3cf0-96e2-05a4453f3cb1" xlink:title="bvv:lkr_ex"/>
+            <srv:operatesOn uuidref="125cce16-7ae1-3cf0-96e2-05a4453f3cb1" xlink:href="https://registry.gdi-de.org/id/de.by/125cce16-7ae1-3cf0-96e2-05a4453f3cb1" xlink:title="bvv:regbez_ex"/>
+            <srv:operatesOn uuidref="125cce16-7ae1-3cf0-96e2-05a4453f3cb1" xlink:href="https://registry.gdi-de.org/id/de.by/125cce16-7ae1-3cf0-96e2-05a4453f3cb1" xlink:title="bvv:vg_ex"/>
+            <srv:operatesOn uuidref="125cce16-7ae1-3cf0-96e2-05a4453f3cb1" xlink:href="https://registry.gdi-de.org/id/de.by/125cce16-7ae1-3cf0-96e2-05a4453f3cb1" xlink:title="bvv:bayern_ex"/>
         </srv:SV_ServiceIdentification>
-        <!-- ######################################################################## -->
     </identificationInfo>
     <distributionInfo>
         <MD_Distribution>
